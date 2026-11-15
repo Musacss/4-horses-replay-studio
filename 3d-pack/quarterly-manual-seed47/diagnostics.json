@@ -1,0 +1,875 @@
+{
+  "diagnostics_format": "robotization-bench.quarter-diagnostics.v1",
+  "schema_version": 2,
+  "world_id": "cell-quarterly-v2",
+  "seed": 47,
+  "overall": {
+    "valid": true,
+    "feasible": true,
+    "win": false,
+    "reward_float": 0.2,
+    "reward_fraction": "1/5",
+    "failure_reasons": [
+      "cost",
+      "labor",
+      "automation"
+    ],
+    "total_cost_cents": 6161325,
+    "total_cost_eur": 61613.25,
+    "cost_delta_vs_manual_cents": 0,
+    "cost_delta_vs_manual_eur": 0.0,
+    "cost_delta_vs_reference_cents": 1365504,
+    "cost_delta_vs_reference_eur": 13655.04,
+    "purchase_eur": 0.0,
+    "labor_ticks": 46883,
+    "base_labor_ticks": 46883,
+    "auto_pack_share_bps": 0,
+    "headline_summary": "Feasible manual-equivalent baseline (€0 vs manual), but missed win criteria: operating cost failed to beat manual baseline; worker labor ticks failed to beat manual baseline; automated pack share fell below 30% minimum. Weeks 0–11: Automated pack share only 0.0% (target >= 30%) -> unautomated 6-worker shifts & peak late orders (-€13,655 vs phased reference)."
+  },
+  "key_mistakes": [
+    {
+      "severity": "major",
+      "week_range": [
+        0,
+        11
+      ],
+      "weeks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "category": "unprofitable_low_automation",
+      "euro_impact_cents": 1365504,
+      "evidence_metrics": {
+        "jams": 0,
+        "wear_peak": 0,
+        "carryover_peak": 4,
+        "escaped": 0,
+        "late": 239,
+        "auto_pack_share_bps": 0
+      },
+      "hud_callout": "Weeks 0–11: Automated pack share only 0.0% (target >= 30%) -> unautomated 6-worker shifts & peak late orders (-€13,655 vs phased reference)"
+    }
+  ],
+  "timeline_weeks": [
+    {
+      "week": 0,
+      "label": "baseline_open",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 131,
+        "exogenous_orders": 131,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 131,
+        "on_time": 131,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 1,
+        "auto_finished": 0,
+        "pack_finished": 132,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3208,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 468770,
+        "week_cost_eur": 4687.7,
+        "manual_week_cost_eur": 4687.7,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "warning",
+      "active_mistakes": [
+        "Week 0 (Baseline Open): Unautomated manual packing (0 late orders)"
+      ],
+      "highlight_ticks": []
+    },
+    {
+      "week": 1,
+      "label": "baseline_steady",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 140,
+        "exogenous_orders": 140,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 140,
+        "on_time": 140,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 140,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3482,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 468900,
+        "week_cost_eur": 4689.0,
+        "manual_week_cost_eur": 4689.0,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 2,
+      "label": "autumn_ramp",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 144,
+        "exogenous_orders": 144,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 144,
+        "on_time": 144,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 2,
+        "auto_finished": 0,
+        "pack_finished": 146,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3548,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 469960,
+        "week_cost_eur": 4699.6,
+        "manual_week_cost_eur": 4699.6,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 3,
+      "label": "fragile_promo",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 170,
+        "exogenous_orders": 170,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 170,
+        "on_time": 147,
+        "late": 23,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 170,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 4470,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 507500,
+        "week_cost_eur": 5075.0,
+        "manual_week_cost_eur": 5075.0,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "warning",
+      "active_mistakes": [
+        "Week 3 (Fragile Promo): Unautomated manual packing (23 late orders)"
+      ],
+      "highlight_ticks": [
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 438,
+          "end_tick": 484,
+          "focus_tick": 438,
+          "start_seconds": 13140,
+          "end_seconds": 14520,
+          "order_id": null,
+          "resource": null,
+          "stage": 2,
+          "severity": "warning",
+          "reason": "Buffer Q2 full (12/12) for 46 ticks ([438, 484])"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "label": "mid_quarter",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 132,
+        "exogenous_orders": 132,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 132,
+        "on_time": 132,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 132,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3217,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 468420,
+        "week_cost_eur": 4684.2,
+        "manual_week_cost_eur": 4684.2,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 5,
+      "label": "pre_peak_prep",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 131,
+        "exogenous_orders": 131,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 131,
+        "on_time": 131,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 2,
+        "auto_finished": 0,
+        "pack_finished": 133,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3247,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 469180,
+        "week_cost_eur": 4691.8,
+        "manual_week_cost_eur": 4691.8,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 6,
+      "label": "early_holiday",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 138,
+        "exogenous_orders": 138,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 138,
+        "on_time": 138,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 138,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3525,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 468780,
+        "week_cost_eur": 4687.8,
+        "manual_week_cost_eur": 4687.8,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 7,
+      "label": "singles_day_wave",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 191,
+        "exogenous_orders": 191,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 191,
+        "on_time": 129,
+        "late": 62,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 1,
+        "auto_finished": 0,
+        "pack_finished": 192,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 5140,
+        "overtime_ticks_total": 317,
+        "week_cost_cents": 611195,
+        "week_cost_eur": 6111.95,
+        "manual_week_cost_eur": 6111.95,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "warning",
+      "active_mistakes": [
+        "Week 7 (Singles' Day): Unautomated manual packing (62 late orders)"
+      ],
+      "highlight_ticks": [
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 438,
+          "end_tick": 486,
+          "focus_tick": 438,
+          "start_seconds": 13140,
+          "end_seconds": 14580,
+          "order_id": null,
+          "resource": null,
+          "stage": 2,
+          "severity": "warning",
+          "reason": "Buffer Q2 full (12/12) for 48 ticks ([438, 486])"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "label": "black_friday_peak",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 202,
+        "exogenous_orders": 202,
+        "carryover_in": 0,
+        "carryover_out": 4,
+        "good": 198,
+        "on_time": 83,
+        "late": 115,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 4,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 1,
+        "auto_finished": 0,
+        "pack_finished": 202,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 5433,
+        "overtime_ticks_total": 645,
+        "week_cost_cents": 740055,
+        "week_cost_eur": 7400.55,
+        "manual_week_cost_eur": 7400.55,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "warning",
+      "active_mistakes": [
+        "Week 8 (Black Friday): Unautomated manual packing (115 late orders)"
+      ],
+      "highlight_ticks": [
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 437,
+          "end_tick": 485,
+          "focus_tick": 437,
+          "start_seconds": 13110,
+          "end_seconds": 14550,
+          "order_id": null,
+          "resource": null,
+          "stage": 2,
+          "severity": "warning",
+          "reason": "Buffer Q2 full (12/12) for 48 ticks ([437, 485])"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "label": "cyber_week_peak",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 187,
+        "exogenous_orders": 183,
+        "carryover_in": 4,
+        "carryover_out": 0,
+        "good": 187,
+        "on_time": 148,
+        "late": 39,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 187,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 5002,
+        "overtime_ticks_total": 137,
+        "week_cost_cents": 551245,
+        "week_cost_eur": 5512.45,
+        "manual_week_cost_eur": 5512.45,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "warning",
+      "active_mistakes": [
+        "Week 9 (Cyber Week): Unautomated manual packing (39 late orders)"
+      ],
+      "highlight_ticks": [
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 438,
+          "end_tick": 481,
+          "focus_tick": 438,
+          "start_seconds": 13140,
+          "end_seconds": 14430,
+          "order_id": null,
+          "resource": null,
+          "stage": 2,
+          "severity": "warning",
+          "reason": "Buffer Q2 full (12/12) for 43 ticks ([438, 481])"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "label": "post_peak_steady",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 120,
+        "exogenous_orders": 120,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 120,
+        "on_time": 120,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 120,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 2886,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 467700,
+        "week_cost_eur": 4677.0,
+        "manual_week_cost_eur": 4677.0,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 11,
+      "label": "quarter_close",
+      "decisions": {
+        "robot": false,
+        "trays": false,
+        "route": "manual",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "worker_count": 6,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 152,
+        "exogenous_orders": 152,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 152,
+        "on_time": 152,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 0,
+        "pack_finished": 152,
+        "wear_start": 0,
+        "wear_end": 0,
+        "commissioning_active": false,
+        "labor_ticks": 3725,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 469620,
+        "week_cost_eur": 4696.2,
+        "manual_week_cost_eur": 4696.2,
+        "cost_delta_vs_manual_eur": 0.0
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    }
+  ]
+}

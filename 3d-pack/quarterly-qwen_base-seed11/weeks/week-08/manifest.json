@@ -1,0 +1,1411 @@
+{
+  "replay_format": "robotization-bench.replay.v1",
+  "world": {
+    "schema_version": 1,
+    "world_id": "cell-v1",
+    "clock": {
+      "tick_seconds": 30,
+      "shift_ticks": 960,
+      "overtime_ticks": 120,
+      "break_at": 440,
+      "break_length": 40,
+      "walk_ticks": 2
+    },
+    "capacity": {
+      "pick": 12,
+      "pack": 10,
+      "qc": 8
+    },
+    "workers": {
+      "min": 1,
+      "max": 8,
+      "zones": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "kinds": [
+      "regular",
+      "fragile",
+      "oversize"
+    ],
+    "time": {
+      "manual": {
+        "regular": [
+          3,
+          5,
+          11,
+          3
+        ],
+        "fragile": [
+          4,
+          7,
+          14,
+          4
+        ],
+        "oversize": [
+          5,
+          9,
+          17,
+          5
+        ]
+      },
+      "auto": {
+        "bare": {
+          "regular": 7,
+          "fragile": 11,
+          "oversize": 15
+        },
+        "tray": {
+          "regular": 4,
+          "fragile": 9,
+          "oversize": 13
+        }
+      },
+      "jam_service": 8
+    },
+    "prob_bps": {
+      "jam": {
+        "bare": {
+          "regular": 1600,
+          "fragile": 4000,
+          "oversize": 6500
+        },
+        "tray": {
+          "regular": 280,
+          "fragile": 2500,
+          "oversize": 5000
+        }
+      },
+      "defect_manual": {
+        "regular": 40,
+        "fragile": 80,
+        "oversize": 100
+      },
+      "defect_auto": {
+        "bare": {
+          "regular": 300,
+          "fragile": 950,
+          "oversize": 1500
+        },
+        "tray": {
+          "regular": 45,
+          "fragile": 650,
+          "oversize": 1100
+        }
+      },
+      "detect": 9500
+    },
+    "money": {
+      "budget": 1800000,
+      "robot_purchase": 1350000,
+      "tray_purchase": 180000,
+      "depreciation_days": 500,
+      "robot_service_day": 700,
+      "tray_per_order": 6,
+      "material_per_pack": 12,
+      "rework_start": 70,
+      "worker_shift": 15200,
+      "overtime_per_worker_tick": 25,
+      "late_good": 320,
+      "unfulfilled": 3500,
+      "escaped": 6500
+    },
+    "threshold_bps": {
+      "good_each_day": 9400,
+      "on_time_pooled": 9000,
+      "escaped_each_day_max": 100,
+      "auto_pack_pooled_min": 2500
+    },
+    "generator": {
+      "waves": 13,
+      "spacing": 65,
+      "orders_min": 13,
+      "orders_span": 5,
+      "jitter_span": 10,
+      "regular_bps": 5800,
+      "fragile_bps": 2600,
+      "due_offset": 150,
+      "due_span": 41
+    },
+    "development_seeds": [
+      11,
+      29,
+      47
+    ]
+  },
+  "plan": {
+    "schema_version": 1,
+    "robot": true,
+    "trays": true,
+    "route": "bypass",
+    "workers": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "scenario": {
+    "schema_version": 1,
+    "seed": 1182003810,
+    "orders": [
+      {
+        "id": 8,
+        "kind": "oversize",
+        "arrival": 1,
+        "due": 167
+      },
+      {
+        "id": 10,
+        "kind": "regular",
+        "arrival": 1,
+        "due": 178
+      },
+      {
+        "id": 7,
+        "kind": "fragile",
+        "arrival": 2,
+        "due": 189
+      },
+      {
+        "id": 6,
+        "kind": "fragile",
+        "arrival": 3,
+        "due": 153
+      },
+      {
+        "id": 9,
+        "kind": "oversize",
+        "arrival": 3,
+        "due": 161
+      },
+      {
+        "id": 2,
+        "kind": "regular",
+        "arrival": 4,
+        "due": 174
+      },
+      {
+        "id": 5,
+        "kind": "regular",
+        "arrival": 6,
+        "due": 180
+      },
+      {
+        "id": 0,
+        "kind": "fragile",
+        "arrival": 7,
+        "due": 182
+      },
+      {
+        "id": 12,
+        "kind": "regular",
+        "arrival": 7,
+        "due": 160
+      },
+      {
+        "id": 1,
+        "kind": "fragile",
+        "arrival": 9,
+        "due": 165
+      },
+      {
+        "id": 3,
+        "kind": "fragile",
+        "arrival": 9,
+        "due": 173
+      },
+      {
+        "id": 4,
+        "kind": "fragile",
+        "arrival": 9,
+        "due": 191
+      },
+      {
+        "id": 11,
+        "kind": "regular",
+        "arrival": 9,
+        "due": 182
+      },
+      {
+        "id": 16,
+        "kind": "fragile",
+        "arrival": 65,
+        "due": 254
+      },
+      {
+        "id": 18,
+        "kind": "fragile",
+        "arrival": 65,
+        "due": 234
+      },
+      {
+        "id": 15,
+        "kind": "regular",
+        "arrival": 66,
+        "due": 252
+      },
+      {
+        "id": 13,
+        "kind": "fragile",
+        "arrival": 68,
+        "due": 228
+      },
+      {
+        "id": 14,
+        "kind": "fragile",
+        "arrival": 68,
+        "due": 251
+      },
+      {
+        "id": 20,
+        "kind": "fragile",
+        "arrival": 68,
+        "due": 226
+      },
+      {
+        "id": 23,
+        "kind": "oversize",
+        "arrival": 68,
+        "due": 241
+      },
+      {
+        "id": 26,
+        "kind": "regular",
+        "arrival": 68,
+        "due": 232
+      },
+      {
+        "id": 19,
+        "kind": "regular",
+        "arrival": 69,
+        "due": 255
+      },
+      {
+        "id": 17,
+        "kind": "regular",
+        "arrival": 71,
+        "due": 231
+      },
+      {
+        "id": 21,
+        "kind": "fragile",
+        "arrival": 71,
+        "due": 221
+      },
+      {
+        "id": 25,
+        "kind": "oversize",
+        "arrival": 71,
+        "due": 248
+      },
+      {
+        "id": 22,
+        "kind": "regular",
+        "arrival": 72,
+        "due": 260
+      },
+      {
+        "id": 27,
+        "kind": "regular",
+        "arrival": 72,
+        "due": 251
+      },
+      {
+        "id": 24,
+        "kind": "regular",
+        "arrival": 74,
+        "due": 258
+      },
+      {
+        "id": 33,
+        "kind": "fragile",
+        "arrival": 130,
+        "due": 296
+      },
+      {
+        "id": 34,
+        "kind": "regular",
+        "arrival": 130,
+        "due": 281
+      },
+      {
+        "id": 32,
+        "kind": "fragile",
+        "arrival": 131,
+        "due": 312
+      },
+      {
+        "id": 38,
+        "kind": "regular",
+        "arrival": 131,
+        "due": 319
+      },
+      {
+        "id": 36,
+        "kind": "fragile",
+        "arrival": 133,
+        "due": 299
+      },
+      {
+        "id": 29,
+        "kind": "regular",
+        "arrival": 134,
+        "due": 286
+      },
+      {
+        "id": 28,
+        "kind": "regular",
+        "arrival": 135,
+        "due": 323
+      },
+      {
+        "id": 35,
+        "kind": "regular",
+        "arrival": 135,
+        "due": 297
+      },
+      {
+        "id": 40,
+        "kind": "regular",
+        "arrival": 135,
+        "due": 314
+      },
+      {
+        "id": 30,
+        "kind": "regular",
+        "arrival": 137,
+        "due": 302
+      },
+      {
+        "id": 31,
+        "kind": "regular",
+        "arrival": 137,
+        "due": 309
+      },
+      {
+        "id": 37,
+        "kind": "oversize",
+        "arrival": 138,
+        "due": 308
+      },
+      {
+        "id": 39,
+        "kind": "regular",
+        "arrival": 138,
+        "due": 290
+      },
+      {
+        "id": 47,
+        "kind": "regular",
+        "arrival": 196,
+        "due": 382
+      },
+      {
+        "id": 45,
+        "kind": "regular",
+        "arrival": 197,
+        "due": 351
+      },
+      {
+        "id": 46,
+        "kind": "oversize",
+        "arrival": 197,
+        "due": 356
+      },
+      {
+        "id": 53,
+        "kind": "fragile",
+        "arrival": 197,
+        "due": 350
+      },
+      {
+        "id": 42,
+        "kind": "oversize",
+        "arrival": 198,
+        "due": 377
+      },
+      {
+        "id": 50,
+        "kind": "oversize",
+        "arrival": 198,
+        "due": 354
+      },
+      {
+        "id": 54,
+        "kind": "fragile",
+        "arrival": 199,
+        "due": 360
+      },
+      {
+        "id": 48,
+        "kind": "regular",
+        "arrival": 200,
+        "due": 385
+      },
+      {
+        "id": 44,
+        "kind": "regular",
+        "arrival": 201,
+        "due": 380
+      },
+      {
+        "id": 49,
+        "kind": "fragile",
+        "arrival": 202,
+        "due": 357
+      },
+      {
+        "id": 51,
+        "kind": "regular",
+        "arrival": 202,
+        "due": 360
+      },
+      {
+        "id": 41,
+        "kind": "fragile",
+        "arrival": 203,
+        "due": 380
+      },
+      {
+        "id": 43,
+        "kind": "oversize",
+        "arrival": 203,
+        "due": 371
+      },
+      {
+        "id": 52,
+        "kind": "regular",
+        "arrival": 203,
+        "due": 356
+      },
+      {
+        "id": 55,
+        "kind": "fragile",
+        "arrival": 204,
+        "due": 370
+      },
+      {
+        "id": 60,
+        "kind": "regular",
+        "arrival": 260,
+        "due": 413
+      },
+      {
+        "id": 62,
+        "kind": "fragile",
+        "arrival": 260,
+        "due": 426
+      },
+      {
+        "id": 66,
+        "kind": "regular",
+        "arrival": 261,
+        "due": 434
+      },
+      {
+        "id": 71,
+        "kind": "fragile",
+        "arrival": 262,
+        "due": 436
+      },
+      {
+        "id": 61,
+        "kind": "regular",
+        "arrival": 263,
+        "due": 440
+      },
+      {
+        "id": 57,
+        "kind": "oversize",
+        "arrival": 264,
+        "due": 424
+      },
+      {
+        "id": 58,
+        "kind": "fragile",
+        "arrival": 264,
+        "due": 421
+      },
+      {
+        "id": 59,
+        "kind": "regular",
+        "arrival": 264,
+        "due": 425
+      },
+      {
+        "id": 63,
+        "kind": "regular",
+        "arrival": 266,
+        "due": 440
+      },
+      {
+        "id": 64,
+        "kind": "regular",
+        "arrival": 266,
+        "due": 422
+      },
+      {
+        "id": 67,
+        "kind": "fragile",
+        "arrival": 266,
+        "due": 452
+      },
+      {
+        "id": 68,
+        "kind": "oversize",
+        "arrival": 266,
+        "due": 436
+      },
+      {
+        "id": 65,
+        "kind": "oversize",
+        "arrival": 267,
+        "due": 456
+      },
+      {
+        "id": 69,
+        "kind": "regular",
+        "arrival": 267,
+        "due": 427
+      },
+      {
+        "id": 56,
+        "kind": "regular",
+        "arrival": 268,
+        "due": 444
+      },
+      {
+        "id": 70,
+        "kind": "regular",
+        "arrival": 269,
+        "due": 448
+      },
+      {
+        "id": 81,
+        "kind": "regular",
+        "arrival": 325,
+        "due": 490
+      },
+      {
+        "id": 72,
+        "kind": "fragile",
+        "arrival": 326,
+        "due": 494
+      },
+      {
+        "id": 79,
+        "kind": "regular",
+        "arrival": 326,
+        "due": 477
+      },
+      {
+        "id": 80,
+        "kind": "regular",
+        "arrival": 326,
+        "due": 486
+      },
+      {
+        "id": 82,
+        "kind": "fragile",
+        "arrival": 326,
+        "due": 498
+      },
+      {
+        "id": 85,
+        "kind": "regular",
+        "arrival": 326,
+        "due": 496
+      },
+      {
+        "id": 76,
+        "kind": "regular",
+        "arrival": 327,
+        "due": 489
+      },
+      {
+        "id": 77,
+        "kind": "oversize",
+        "arrival": 328,
+        "due": 483
+      },
+      {
+        "id": 74,
+        "kind": "regular",
+        "arrival": 330,
+        "due": 495
+      },
+      {
+        "id": 84,
+        "kind": "fragile",
+        "arrival": 330,
+        "due": 512
+      },
+      {
+        "id": 73,
+        "kind": "fragile",
+        "arrival": 332,
+        "due": 494
+      },
+      {
+        "id": 75,
+        "kind": "regular",
+        "arrival": 332,
+        "due": 495
+      },
+      {
+        "id": 78,
+        "kind": "regular",
+        "arrival": 332,
+        "due": 488
+      },
+      {
+        "id": 83,
+        "kind": "regular",
+        "arrival": 333,
+        "due": 511
+      },
+      {
+        "id": 92,
+        "kind": "fragile",
+        "arrival": 390,
+        "due": 550
+      },
+      {
+        "id": 94,
+        "kind": "regular",
+        "arrival": 390,
+        "due": 561
+      },
+      {
+        "id": 86,
+        "kind": "regular",
+        "arrival": 391,
+        "due": 574
+      },
+      {
+        "id": 93,
+        "kind": "regular",
+        "arrival": 391,
+        "due": 553
+      },
+      {
+        "id": 97,
+        "kind": "fragile",
+        "arrival": 391,
+        "due": 557
+      },
+      {
+        "id": 100,
+        "kind": "fragile",
+        "arrival": 391,
+        "due": 579
+      },
+      {
+        "id": 88,
+        "kind": "regular",
+        "arrival": 392,
+        "due": 573
+      },
+      {
+        "id": 89,
+        "kind": "fragile",
+        "arrival": 392,
+        "due": 565
+      },
+      {
+        "id": 91,
+        "kind": "fragile",
+        "arrival": 393,
+        "due": 579
+      },
+      {
+        "id": 101,
+        "kind": "regular",
+        "arrival": 395,
+        "due": 550
+      },
+      {
+        "id": 96,
+        "kind": "regular",
+        "arrival": 397,
+        "due": 581
+      },
+      {
+        "id": 87,
+        "kind": "fragile",
+        "arrival": 398,
+        "due": 554
+      },
+      {
+        "id": 90,
+        "kind": "fragile",
+        "arrival": 398,
+        "due": 579
+      },
+      {
+        "id": 95,
+        "kind": "oversize",
+        "arrival": 399,
+        "due": 570
+      },
+      {
+        "id": 98,
+        "kind": "regular",
+        "arrival": 399,
+        "due": 552
+      },
+      {
+        "id": 99,
+        "kind": "fragile",
+        "arrival": 399,
+        "due": 564
+      },
+      {
+        "id": 102,
+        "kind": "oversize",
+        "arrival": 456,
+        "due": 633
+      },
+      {
+        "id": 105,
+        "kind": "regular",
+        "arrival": 456,
+        "due": 607
+      },
+      {
+        "id": 108,
+        "kind": "regular",
+        "arrival": 457,
+        "due": 607
+      },
+      {
+        "id": 111,
+        "kind": "regular",
+        "arrival": 457,
+        "due": 608
+      },
+      {
+        "id": 103,
+        "kind": "regular",
+        "arrival": 458,
+        "due": 631
+      },
+      {
+        "id": 104,
+        "kind": "regular",
+        "arrival": 459,
+        "due": 623
+      },
+      {
+        "id": 106,
+        "kind": "regular",
+        "arrival": 460,
+        "due": 616
+      },
+      {
+        "id": 114,
+        "kind": "fragile",
+        "arrival": 460,
+        "due": 637
+      },
+      {
+        "id": 115,
+        "kind": "oversize",
+        "arrival": 460,
+        "due": 621
+      },
+      {
+        "id": 113,
+        "kind": "regular",
+        "arrival": 461,
+        "due": 648
+      },
+      {
+        "id": 110,
+        "kind": "regular",
+        "arrival": 462,
+        "due": 652
+      },
+      {
+        "id": 112,
+        "kind": "regular",
+        "arrival": 462,
+        "due": 614
+      },
+      {
+        "id": 107,
+        "kind": "regular",
+        "arrival": 463,
+        "due": 653
+      },
+      {
+        "id": 109,
+        "kind": "regular",
+        "arrival": 463,
+        "due": 647
+      },
+      {
+        "id": 125,
+        "kind": "regular",
+        "arrival": 521,
+        "due": 672
+      },
+      {
+        "id": 130,
+        "kind": "fragile",
+        "arrival": 521,
+        "due": 694
+      },
+      {
+        "id": 119,
+        "kind": "fragile",
+        "arrival": 522,
+        "due": 682
+      },
+      {
+        "id": 126,
+        "kind": "fragile",
+        "arrival": 522,
+        "due": 682
+      },
+      {
+        "id": 117,
+        "kind": "regular",
+        "arrival": 523,
+        "due": 704
+      },
+      {
+        "id": 118,
+        "kind": "regular",
+        "arrival": 523,
+        "due": 678
+      },
+      {
+        "id": 122,
+        "kind": "regular",
+        "arrival": 523,
+        "due": 700
+      },
+      {
+        "id": 120,
+        "kind": "oversize",
+        "arrival": 524,
+        "due": 694
+      },
+      {
+        "id": 129,
+        "kind": "oversize",
+        "arrival": 525,
+        "due": 705
+      },
+      {
+        "id": 121,
+        "kind": "regular",
+        "arrival": 527,
+        "due": 703
+      },
+      {
+        "id": 124,
+        "kind": "regular",
+        "arrival": 527,
+        "due": 691
+      },
+      {
+        "id": 123,
+        "kind": "regular",
+        "arrival": 528,
+        "due": 713
+      },
+      {
+        "id": 127,
+        "kind": "regular",
+        "arrival": 528,
+        "due": 703
+      },
+      {
+        "id": 116,
+        "kind": "oversize",
+        "arrival": 529,
+        "due": 683
+      },
+      {
+        "id": 128,
+        "kind": "fragile",
+        "arrival": 529,
+        "due": 704
+      },
+      {
+        "id": 147,
+        "kind": "oversize",
+        "arrival": 585,
+        "due": 774
+      },
+      {
+        "id": 136,
+        "kind": "regular",
+        "arrival": 586,
+        "due": 747
+      },
+      {
+        "id": 146,
+        "kind": "oversize",
+        "arrival": 586,
+        "due": 744
+      },
+      {
+        "id": 131,
+        "kind": "regular",
+        "arrival": 587,
+        "due": 747
+      },
+      {
+        "id": 134,
+        "kind": "oversize",
+        "arrival": 587,
+        "due": 769
+      },
+      {
+        "id": 138,
+        "kind": "regular",
+        "arrival": 587,
+        "due": 746
+      },
+      {
+        "id": 144,
+        "kind": "regular",
+        "arrival": 587,
+        "due": 753
+      },
+      {
+        "id": 132,
+        "kind": "regular",
+        "arrival": 588,
+        "due": 759
+      },
+      {
+        "id": 139,
+        "kind": "regular",
+        "arrival": 589,
+        "due": 763
+      },
+      {
+        "id": 141,
+        "kind": "oversize",
+        "arrival": 590,
+        "due": 772
+      },
+      {
+        "id": 140,
+        "kind": "fragile",
+        "arrival": 591,
+        "due": 742
+      },
+      {
+        "id": 143,
+        "kind": "fragile",
+        "arrival": 591,
+        "due": 762
+      },
+      {
+        "id": 137,
+        "kind": "oversize",
+        "arrival": 592,
+        "due": 744
+      },
+      {
+        "id": 142,
+        "kind": "oversize",
+        "arrival": 592,
+        "due": 748
+      },
+      {
+        "id": 133,
+        "kind": "regular",
+        "arrival": 594,
+        "due": 769
+      },
+      {
+        "id": 135,
+        "kind": "regular",
+        "arrival": 594,
+        "due": 757
+      },
+      {
+        "id": 145,
+        "kind": "regular",
+        "arrival": 594,
+        "due": 766
+      },
+      {
+        "id": 156,
+        "kind": "regular",
+        "arrival": 650,
+        "due": 817
+      },
+      {
+        "id": 160,
+        "kind": "regular",
+        "arrival": 650,
+        "due": 817
+      },
+      {
+        "id": 153,
+        "kind": "fragile",
+        "arrival": 651,
+        "due": 832
+      },
+      {
+        "id": 158,
+        "kind": "fragile",
+        "arrival": 651,
+        "due": 807
+      },
+      {
+        "id": 148,
+        "kind": "regular",
+        "arrival": 652,
+        "due": 823
+      },
+      {
+        "id": 149,
+        "kind": "fragile",
+        "arrival": 652,
+        "due": 819
+      },
+      {
+        "id": 152,
+        "kind": "regular",
+        "arrival": 652,
+        "due": 802
+      },
+      {
+        "id": 159,
+        "kind": "oversize",
+        "arrival": 654,
+        "due": 835
+      },
+      {
+        "id": 154,
+        "kind": "fragile",
+        "arrival": 656,
+        "due": 834
+      },
+      {
+        "id": 157,
+        "kind": "oversize",
+        "arrival": 656,
+        "due": 819
+      },
+      {
+        "id": 150,
+        "kind": "regular",
+        "arrival": 657,
+        "due": 817
+      },
+      {
+        "id": 151,
+        "kind": "fragile",
+        "arrival": 658,
+        "due": 815
+      },
+      {
+        "id": 163,
+        "kind": "regular",
+        "arrival": 658,
+        "due": 818
+      },
+      {
+        "id": 155,
+        "kind": "regular",
+        "arrival": 659,
+        "due": 849
+      },
+      {
+        "id": 161,
+        "kind": "oversize",
+        "arrival": 659,
+        "due": 818
+      },
+      {
+        "id": 162,
+        "kind": "fragile",
+        "arrival": 659,
+        "due": 829
+      },
+      {
+        "id": 166,
+        "kind": "fragile",
+        "arrival": 716,
+        "due": 877
+      },
+      {
+        "id": 168,
+        "kind": "regular",
+        "arrival": 716,
+        "due": 883
+      },
+      {
+        "id": 172,
+        "kind": "fragile",
+        "arrival": 717,
+        "due": 883
+      },
+      {
+        "id": 174,
+        "kind": "oversize",
+        "arrival": 717,
+        "due": 884
+      },
+      {
+        "id": 164,
+        "kind": "oversize",
+        "arrival": 718,
+        "due": 874
+      },
+      {
+        "id": 171,
+        "kind": "regular",
+        "arrival": 718,
+        "due": 892
+      },
+      {
+        "id": 173,
+        "kind": "oversize",
+        "arrival": 718,
+        "due": 878
+      },
+      {
+        "id": 167,
+        "kind": "oversize",
+        "arrival": 719,
+        "due": 881
+      },
+      {
+        "id": 177,
+        "kind": "regular",
+        "arrival": 719,
+        "due": 904
+      },
+      {
+        "id": 175,
+        "kind": "regular",
+        "arrival": 720,
+        "due": 889
+      },
+      {
+        "id": 169,
+        "kind": "regular",
+        "arrival": 721,
+        "due": 908
+      },
+      {
+        "id": 179,
+        "kind": "oversize",
+        "arrival": 721,
+        "due": 880
+      },
+      {
+        "id": 170,
+        "kind": "oversize",
+        "arrival": 723,
+        "due": 908
+      },
+      {
+        "id": 176,
+        "kind": "fragile",
+        "arrival": 723,
+        "due": 911
+      },
+      {
+        "id": 178,
+        "kind": "fragile",
+        "arrival": 723,
+        "due": 902
+      },
+      {
+        "id": 165,
+        "kind": "regular",
+        "arrival": 724,
+        "due": 908
+      },
+      {
+        "id": 188,
+        "kind": "fragile",
+        "arrival": 780,
+        "due": 938
+      },
+      {
+        "id": 184,
+        "kind": "regular",
+        "arrival": 782,
+        "due": 941
+      },
+      {
+        "id": 192,
+        "kind": "oversize",
+        "arrival": 782,
+        "due": 961
+      },
+      {
+        "id": 181,
+        "kind": "regular",
+        "arrival": 783,
+        "due": 937
+      },
+      {
+        "id": 190,
+        "kind": "regular",
+        "arrival": 783,
+        "due": 951
+      },
+      {
+        "id": 193,
+        "kind": "regular",
+        "arrival": 784,
+        "due": 970
+      },
+      {
+        "id": 194,
+        "kind": "fragile",
+        "arrival": 784,
+        "due": 972
+      },
+      {
+        "id": 196,
+        "kind": "regular",
+        "arrival": 784,
+        "due": 953
+      },
+      {
+        "id": 182,
+        "kind": "oversize",
+        "arrival": 786,
+        "due": 951
+      },
+      {
+        "id": 183,
+        "kind": "regular",
+        "arrival": 787,
+        "due": 947
+      },
+      {
+        "id": 187,
+        "kind": "regular",
+        "arrival": 787,
+        "due": 963
+      },
+      {
+        "id": 189,
+        "kind": "regular",
+        "arrival": 788,
+        "due": 953
+      },
+      {
+        "id": 191,
+        "kind": "oversize",
+        "arrival": 788,
+        "due": 971
+      },
+      {
+        "id": 195,
+        "kind": "regular",
+        "arrival": 788,
+        "due": 963
+      },
+      {
+        "id": 180,
+        "kind": "regular",
+        "arrival": 789,
+        "due": 970
+      },
+      {
+        "id": 185,
+        "kind": "fragile",
+        "arrival": 789,
+        "due": 941
+      },
+      {
+        "id": 186,
+        "kind": "fragile",
+        "arrival": 789,
+        "due": 968
+      }
+    ]
+  },
+  "raw": {
+    "schema_version": 1,
+    "seed": 1182003810,
+    "total": 197,
+    "good": 197,
+    "on_time": 197,
+    "escaped": 0,
+    "scrap": 0,
+    "unfinished": 0,
+    "pack_started": 199,
+    "pack_finished": 199,
+    "auto_finished": 103,
+    "trays_used": 197,
+    "rework_started": 2,
+    "labor_ticks": 4732,
+    "overtime_ticks": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "events": []
+  },
+  "economy": {
+    "purchase": 1530000,
+    "costs": {
+      "depreciation": 3060,
+      "service": 700,
+      "shifts": 121600,
+      "overtime": 0,
+      "trays": 1182,
+      "materials": 2388,
+      "rework": 140,
+      "late": 0,
+      "unfulfilled": 0,
+      "escaped": 0
+    },
+    "total": 129070
+  },
+  "events_file": "events.jsonl"
+}

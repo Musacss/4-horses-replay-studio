@@ -1,0 +1,1033 @@
+{
+  "diagnostics_format": "robotization-bench.quarter-diagnostics.v1",
+  "schema_version": 2,
+  "world_id": "cell-quarterly-v2",
+  "seed": 11,
+  "overall": {
+    "valid": true,
+    "feasible": true,
+    "win": true,
+    "reward_float": 0.366496,
+    "reward_fraction": "33218543/90638275",
+    "failure_reasons": [],
+    "total_cost_cents": 4828426,
+    "total_cost_eur": 48284.26,
+    "cost_delta_vs_manual_cents": -1132544,
+    "cost_delta_vs_manual_eur": -11325.44,
+    "cost_delta_vs_reference_cents": 87440,
+    "cost_delta_vs_reference_eur": 874.4,
+    "purchase_eur": 15300.0,
+    "labor_ticks": 32855,
+    "base_labor_ticks": 45920,
+    "auto_pack_share_bps": 6859,
+    "headline_summary": "Rollout succeeded across all 12 weeks, saving €11,325 vs manual baseline with 68.6% automated packing and peak wear capped at 1/12 within €874 of the reference plan."
+  },
+  "key_mistakes": [],
+  "timeline_weeks": [
+    {
+      "week": 0,
+      "label": "baseline_open",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": false,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 140,
+        "exogenous_orders": 140,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 140,
+        "on_time": 140,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 12,
+        "assists": 12,
+        "rework_started": 2,
+        "auto_finished": 113,
+        "pack_finished": 142,
+        "wear_start": 0,
+        "wear_end": 1,
+        "commissioning_active": true,
+        "labor_ticks": 2305,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 384843,
+        "week_cost_eur": 3848.43,
+        "manual_week_cost_eur": 4689.0,
+        "cost_delta_vs_manual_eur": -840.57
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 271,
+          "end_tick": 293,
+          "focus_tick": 271,
+          "start_seconds": 8130,
+          "end_seconds": 8790,
+          "order_id": 54,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #54 blocked Stage 3 for 22 ticks ([271, 293])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 326,
+          "end_tick": 346,
+          "focus_tick": 326,
+          "start_seconds": 9780,
+          "end_seconds": 10380,
+          "order_id": 60,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #60 blocked Stage 3 for 20 ticks ([326, 346])"
+        },
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 375,
+          "end_tick": 390,
+          "focus_tick": 375,
+          "start_seconds": 11250,
+          "end_seconds": 11700,
+          "order_id": null,
+          "resource": null,
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Buffer Q3 full (10/10) for 15 ticks ([375, 390])"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "label": "baseline_steady",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 133,
+        "exogenous_orders": 133,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 133,
+        "on_time": 133,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 9,
+        "assists": 9,
+        "rework_started": 2,
+        "auto_finished": 101,
+        "pack_finished": 135,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": true,
+        "labor_ticks": 2310,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 363213,
+        "week_cost_eur": 3632.13,
+        "manual_week_cost_eur": 4688.9,
+        "cost_delta_vs_manual_eur": -1056.77
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 112,
+          "end_tick": 134,
+          "focus_tick": 112,
+          "start_seconds": 3360,
+          "end_seconds": 4020,
+          "order_id": 24,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #24 blocked Stage 3 for 22 ticks ([112, 134])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 314,
+          "end_tick": 335,
+          "focus_tick": 314,
+          "start_seconds": 9420,
+          "end_seconds": 10050,
+          "order_id": 61,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #61 blocked Stage 3 for 21 ticks ([314, 335])"
+        },
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 331,
+          "end_tick": 370,
+          "focus_tick": 331,
+          "start_seconds": 9930,
+          "end_seconds": 11100,
+          "order_id": null,
+          "resource": null,
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Buffer Q3 full (10/10) for 39 ticks ([331, 370])"
+        },
+        {
+          "kind": "queue_bottleneck",
+          "start_tick": 454,
+          "end_tick": 483,
+          "focus_tick": 454,
+          "start_seconds": 13620,
+          "end_seconds": 14490,
+          "order_id": null,
+          "resource": null,
+          "stage": 4,
+          "severity": "warning",
+          "reason": "Buffer Q4 full (8/8) for 29 ticks ([454, 483])"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "label": "autumn_ramp",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 134,
+        "exogenous_orders": 134,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 134,
+        "on_time": 134,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 2,
+        "assists": 2,
+        "rework_started": 1,
+        "auto_finished": 100,
+        "pack_finished": 135,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 2293,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 362893,
+        "week_cost_eur": 3628.93,
+        "manual_week_cost_eur": 4689.5,
+        "cost_delta_vs_manual_eur": -1060.57
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 553,
+          "end_tick": 572,
+          "focus_tick": 553,
+          "start_seconds": 16590,
+          "end_seconds": 17160,
+          "order_id": 104,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #104 blocked Stage 3 for 19 ticks ([553, 572])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 281,
+          "end_tick": 296,
+          "focus_tick": 281,
+          "start_seconds": 8430,
+          "end_seconds": 8880,
+          "order_id": 51,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #51 blocked Stage 3 for 15 ticks ([281, 296])"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "label": "fragile_promo",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 5,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 169,
+        "exogenous_orders": 169,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 169,
+        "on_time": 169,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 2,
+        "assists": 2,
+        "rework_started": 1,
+        "auto_finished": 119,
+        "pack_finished": 170,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 3029,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 451043,
+        "week_cost_eur": 4510.43,
+        "manual_week_cost_eur": 4710.5,
+        "cost_delta_vs_manual_eur": -200.07
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 225,
+          "end_tick": 238,
+          "focus_tick": 225,
+          "start_seconds": 6750,
+          "end_seconds": 7140,
+          "order_id": 46,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #46 blocked Stage 3 for 13 ticks ([225, 238])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 166,
+          "end_tick": 177,
+          "focus_tick": 166,
+          "start_seconds": 4980,
+          "end_seconds": 5310,
+          "order_id": 36,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #36 blocked Stage 3 for 11 ticks ([166, 177])"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "label": "mid_quarter",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 129,
+        "exogenous_orders": 129,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 129,
+        "on_time": 126,
+        "late": 3,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 1,
+        "assists": 1,
+        "rework_started": 5,
+        "auto_finished": 94,
+        "pack_finished": 134,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 2292,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 379883,
+        "week_cost_eur": 3798.83,
+        "manual_week_cost_eur": 4702.9,
+        "cost_delta_vs_manual_eur": -904.07
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 352,
+          "end_tick": 362,
+          "focus_tick": 352,
+          "start_seconds": 10560,
+          "end_seconds": 10860,
+          "order_id": 71,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #71 blocked Stage 3 for 10 ticks ([352, 362])"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "label": "pre_peak_prep",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 115,
+        "exogenous_orders": 115,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 115,
+        "on_time": 115,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 3,
+        "assists": 3,
+        "rework_started": 0,
+        "auto_finished": 94,
+        "pack_finished": 115,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 1813,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 360773,
+        "week_cost_eur": 3607.73,
+        "manual_week_cost_eur": 4674.0,
+        "cost_delta_vs_manual_eur": -1066.27
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 48,
+          "end_tick": 67,
+          "focus_tick": 48,
+          "start_seconds": 1440,
+          "end_seconds": 2010,
+          "order_id": 6,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #6 blocked Stage 3 for 19 ticks ([48, 67])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 98,
+          "end_tick": 117,
+          "focus_tick": 98,
+          "start_seconds": 2940,
+          "end_seconds": 3510,
+          "order_id": 15,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #15 blocked Stage 3 for 19 ticks ([98, 117])"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "label": "early_holiday",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 145,
+        "exogenous_orders": 145,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 144,
+        "on_time": 143,
+        "late": 1,
+        "escaped": 1,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 3,
+        "assists": 3,
+        "rework_started": 0,
+        "auto_finished": 100,
+        "pack_finished": 145,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 2614,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 397573,
+        "week_cost_eur": 3975.73,
+        "manual_week_cost_eur": 5017.0,
+        "cost_delta_vs_manual_eur": -1041.27
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "escaped",
+          "start_tick": 375,
+          "end_tick": 381,
+          "focus_tick": 379,
+          "start_seconds": 11250,
+          "end_seconds": 11430,
+          "order_id": 71,
+          "resource": "w3",
+          "stage": 4,
+          "severity": "critical",
+          "reason": "Escaped defect on order #71 passed QC at tick 379"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 406,
+          "end_tick": 419,
+          "focus_tick": 406,
+          "start_seconds": 12180,
+          "end_seconds": 12570,
+          "order_id": 73,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #73 blocked Stage 3 for 13 ticks ([406, 419])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 607,
+          "end_tick": 618,
+          "focus_tick": 607,
+          "start_seconds": 18210,
+          "end_seconds": 18540,
+          "order_id": 110,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #110 blocked Stage 3 for 11 ticks ([607, 618])"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "label": "singles_day_wave",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 5,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 176,
+        "exogenous_orders": 176,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 176,
+        "on_time": 176,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 4,
+        "assists": 4,
+        "rework_started": 1,
+        "auto_finished": 92,
+        "pack_finished": 177,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 3891,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 451673,
+        "week_cost_eur": 4516.73,
+        "manual_week_cost_eur": 4915.95,
+        "cost_delta_vs_manual_eur": -399.22
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 756,
+          "end_tick": 773,
+          "focus_tick": 756,
+          "start_seconds": 22680,
+          "end_seconds": 23190,
+          "order_id": 139,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #139 blocked Stage 3 for 17 ticks ([756, 773])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 577,
+          "end_tick": 592,
+          "focus_tick": 577,
+          "start_seconds": 17310,
+          "end_seconds": 17760,
+          "order_id": 119,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #119 blocked Stage 3 for 15 ticks ([577, 592])"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "label": "black_friday_peak",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 5,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 197,
+        "exogenous_orders": 197,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 197,
+        "on_time": 173,
+        "late": 24,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 2,
+        "assists": 2,
+        "rework_started": 2,
+        "auto_finished": 103,
+        "pack_finished": 199,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 4330,
+        "overtime_ticks_total": 110,
+        "week_cost_cents": 497123,
+        "week_cost_eur": 4971.23,
+        "manual_week_cost_eur": 7022.05,
+        "cost_delta_vs_manual_eur": -2050.82
+      },
+      "status": "warning",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 411,
+          "end_tick": 425,
+          "focus_tick": 411,
+          "start_seconds": 12330,
+          "end_seconds": 12750,
+          "order_id": 75,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #75 blocked Stage 3 for 14 ticks ([411, 425])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 325,
+          "end_tick": 337,
+          "focus_tick": 325,
+          "start_seconds": 9750,
+          "end_seconds": 10110,
+          "order_id": 64,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #64 blocked Stage 3 for 12 ticks ([325, 337])"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "label": "cyber_week_peak",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 5,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 175,
+        "exogenous_orders": 175,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 175,
+        "on_time": 175,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 0,
+        "auto_finished": 101,
+        "pack_finished": 175,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 3609,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 442173,
+        "week_cost_eur": 4421.73,
+        "manual_week_cost_eur": 5122.0,
+        "cost_delta_vs_manual_eur": -700.27
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 10,
+      "label": "post_peak_steady",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 134,
+        "exogenous_orders": 134,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 134,
+        "on_time": 134,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 0,
+        "assists": 0,
+        "rework_started": 1,
+        "auto_finished": 108,
+        "pack_finished": 135,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 2119,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 373893,
+        "week_cost_eur": 3738.93,
+        "manual_week_cost_eur": 4685.4,
+        "cost_delta_vs_manual_eur": -946.47
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": []
+    },
+    {
+      "week": 11,
+      "label": "quarter_close",
+      "decisions": {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "worker_count": 4,
+        "has_zone3_worker": true
+      },
+      "metrics": {
+        "orders_total": 139,
+        "exogenous_orders": 139,
+        "carryover_in": 0,
+        "carryover_out": 0,
+        "good": 139,
+        "on_time": 139,
+        "late": 0,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "jams": 4,
+        "assists": 4,
+        "rework_started": 1,
+        "auto_finished": 111,
+        "pack_finished": 140,
+        "wear_start": 1,
+        "wear_end": 1,
+        "commissioning_active": false,
+        "labor_ticks": 2250,
+        "overtime_ticks_total": 0,
+        "week_cost_cents": 363343,
+        "week_cost_eur": 3633.43,
+        "manual_week_cost_eur": 4692.5,
+        "cost_delta_vs_manual_eur": -1059.07
+      },
+      "status": "ok",
+      "active_mistakes": [],
+      "highlight_ticks": [
+        {
+          "kind": "jam",
+          "start_tick": 355,
+          "end_tick": 374,
+          "focus_tick": 355,
+          "start_seconds": 10650,
+          "end_seconds": 11220,
+          "order_id": 75,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #75 blocked Stage 3 for 19 ticks ([355, 374])"
+        },
+        {
+          "kind": "jam",
+          "start_tick": 382,
+          "end_tick": 396,
+          "focus_tick": 382,
+          "start_seconds": 11460,
+          "end_seconds": 11880,
+          "order_id": 77,
+          "resource": "robot",
+          "stage": 3,
+          "severity": "warning",
+          "reason": "Robot jam on order #77 blocked Stage 3 for 14 ticks ([382, 396])"
+        }
+      ]
+    }
+  ]
+}

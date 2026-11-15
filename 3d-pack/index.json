@@ -1,9 +1,11 @@
 {
   "pack_format": "robotization-bench.3d-pack-index.v1",
   "replay_format": "robotization-bench.replay.v1",
+  "diagnostics_format": "robotization-bench.quarter-diagnostics.v1",
+  "guide": "AI_MISTAKES_OVERLAY_RU.md",
   "world_id": "cell-v1",
-  "quarterly_world_id": null,
-  "quarterly_available": false,
+  "quarterly_world_id": "cell-quarterly-v2",
+  "quarterly_available": true,
   "seeds": [
     11,
     29,
@@ -19,7 +21,9 @@
       "id": "v1-manual-seed11",
       "mode": "v1",
       "strategy": "manual",
+      "plan_name": "v1-manual",
       "label": "manual",
+      "extra_plan": false,
       "seed": 11,
       "bundle_dir": "v1-manual-seed11",
       "manifest": "v1-manual-seed11/manifest.json",
@@ -36,6 +40,11 @@
         "purchase": 0,
         "total_cost": 93274
       },
+      "feasible": true,
+      "win": false,
+      "reward_num": 1,
+      "reward_den": 5,
+      "total_cost": 93274,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -73,7 +82,9 @@
       "id": "v1-candidate-seed11",
       "mode": "v1",
       "strategy": "candidate",
+      "plan_name": "v1-candidate",
       "label": "candidate",
+      "extra_plan": false,
       "seed": 11,
       "bundle_dir": "v1-candidate-seed11",
       "manifest": "v1-candidate-seed11/manifest.json",
@@ -90,6 +101,11 @@
         "purchase": 1530000,
         "total_cost": 82830
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 207139,
+      "reward_den": 704715,
+      "total_cost": 82830,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -123,7 +139,9 @@
       "id": "v1-reference-seed11",
       "mode": "v1",
       "strategy": "reference",
+      "plan_name": "v1-reference",
       "label": "reference",
+      "extra_plan": false,
       "seed": 11,
       "bundle_dir": "v1-reference-seed11",
       "manifest": "v1-reference-seed11/manifest.json",
@@ -140,6 +158,11 @@
         "purchase": 1530000,
         "total_cost": 67630
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 293219,
+      "reward_den": 704715,
+      "total_cost": 67630,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -173,7 +196,9 @@
       "id": "v1-manual-seed29",
       "mode": "v1",
       "strategy": "manual",
+      "plan_name": "v1-manual",
       "label": "manual",
+      "extra_plan": false,
       "seed": 29,
       "bundle_dir": "v1-manual-seed29",
       "manifest": "v1-manual-seed29/manifest.json",
@@ -190,6 +215,11 @@
         "purchase": 0,
         "total_cost": 95372
       },
+      "feasible": true,
+      "win": false,
+      "reward_num": 1,
+      "reward_den": 5,
+      "total_cost": 95372,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -227,7 +257,9 @@
       "id": "v1-candidate-seed29",
       "mode": "v1",
       "strategy": "candidate",
+      "plan_name": "v1-candidate",
       "label": "candidate",
+      "extra_plan": false,
       "seed": 29,
       "bundle_dir": "v1-candidate-seed29",
       "manifest": "v1-candidate-seed29/manifest.json",
@@ -244,6 +276,11 @@
         "purchase": 1530000,
         "total_cost": 83056
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 207139,
+      "reward_den": 704715,
+      "total_cost": 83056,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -277,7 +314,9 @@
       "id": "v1-reference-seed29",
       "mode": "v1",
       "strategy": "reference",
+      "plan_name": "v1-reference",
       "label": "reference",
+      "extra_plan": false,
       "seed": 29,
       "bundle_dir": "v1-reference-seed29",
       "manifest": "v1-reference-seed29/manifest.json",
@@ -294,6 +333,11 @@
         "purchase": 1530000,
         "total_cost": 70416
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 293219,
+      "reward_den": 704715,
+      "total_cost": 70416,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -327,7 +371,9 @@
       "id": "v1-manual-seed47",
       "mode": "v1",
       "strategy": "manual",
+      "plan_name": "v1-manual",
       "label": "manual",
+      "extra_plan": false,
       "seed": 47,
       "bundle_dir": "v1-manual-seed47",
       "manifest": "v1-manual-seed47/manifest.json",
@@ -344,6 +390,11 @@
         "purchase": 0,
         "total_cost": 93240
       },
+      "feasible": true,
+      "win": false,
+      "reward_num": 1,
+      "reward_den": 5,
+      "total_cost": 93240,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -381,7 +432,9 @@
       "id": "v1-candidate-seed47",
       "mode": "v1",
       "strategy": "candidate",
+      "plan_name": "v1-candidate",
       "label": "candidate",
+      "extra_plan": false,
       "seed": 47,
       "bundle_dir": "v1-candidate-seed47",
       "manifest": "v1-candidate-seed47/manifest.json",
@@ -398,6 +451,11 @@
         "purchase": 1530000,
         "total_cost": 82902
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 207139,
+      "reward_den": 704715,
+      "total_cost": 82902,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -431,7 +489,9 @@
       "id": "v1-reference-seed47",
       "mode": "v1",
       "strategy": "reference",
+      "plan_name": "v1-reference",
       "label": "reference",
+      "extra_plan": false,
       "seed": 47,
       "bundle_dir": "v1-reference-seed47",
       "manifest": "v1-reference-seed47/manifest.json",
@@ -448,6 +508,11 @@
         "purchase": 1530000,
         "total_cost": 67702
       },
+      "feasible": true,
+      "win": true,
+      "reward_num": 293219,
+      "reward_den": 704715,
+      "total_cost": 67702,
       "evaluation": {
         "valid": true,
         "feasible": true,
@@ -476,6 +541,3828 @@
         29,
         47
       ]
+    },
+    {
+      "id": "quarterly-manual-seed11",
+      "mode": "quarterly",
+      "strategy": "manual",
+      "slug": "manual",
+      "role": "baseline",
+      "label": "Manual Baseline (6 Workers)",
+      "solver_source": "manual_quarterly_value",
+      "seed": 11,
+      "bundle_dir": "quarterly-manual-seed11",
+      "quarter_manifest": "quarterly-manual-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-manual-seed11/diagnostics.json",
+      "diagnostics_headline": "Feasible manual-equivalent baseline (€0 vs manual), but missed win criteria: operating cost failed to beat manual baseline; worker labor ticks failed to beat manual baseline; automated pack share fell below 30% minimum. Weeks 0–11: Automated pack share only 0.0% (target >= 30%) -> unautomated 6-worker shifts & peak late orders (-€12,200 vs phased reference).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 0,
+        "total_cost": 5960970,
+        "labor_ticks": 45920
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 4882,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 5450,
+          "labor_ticks": 138426,
+          "base_labor_ticks": 138426,
+          "total_cost": 18127655,
+          "base_cost": 18127655,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-00",
+          "manifest": "quarterly-manual-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2011,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-01",
+          "manifest": "quarterly-manual-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1915,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-02",
+          "manifest": "quarterly-manual-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1925,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-03",
+          "manifest": "quarterly-manual-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2427,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-04",
+          "manifest": "quarterly-manual-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1881,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-05",
+          "manifest": "quarterly-manual-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1649,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-06",
+          "manifest": "quarterly-manual-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2079,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-07",
+          "manifest": "quarterly-manual-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2533,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-08",
+          "manifest": "quarterly-manual-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2822,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-09",
+          "manifest": "quarterly-manual-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2591,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-10",
+          "manifest": "quarterly-manual-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1924,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-manual-seed11/weeks/week-11",
+          "manifest": "quarterly-manual-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-manual-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2001,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-reference-seed11",
+      "mode": "quarterly",
+      "strategy": "reference",
+      "slug": "reference",
+      "role": "reference",
+      "label": "Phased Reference Rollout",
+      "solver_source": "reference.solve",
+      "seed": 11,
+      "bundle_dir": "quarterly-reference-seed11",
+      "quarter_manifest": "quarterly-reference-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-reference-seed11/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €12,200 vs manual baseline with 68.4% automated packing and peak wear capped at 2/12 matching the phased reference rollout.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4740986,
+        "labor_ticks": 33149
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33542083,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5209,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5473,
+          "labor_ticks": 98996,
+          "base_labor_ticks": 138426,
+          "total_cost": 14274048,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-00",
+          "manifest": "quarterly-reference-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2051,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-01",
+          "manifest": "quarterly-reference-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1955,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-02",
+          "manifest": "quarterly-reference-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1935,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-03",
+          "manifest": "quarterly-reference-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2446,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-04",
+          "manifest": "quarterly-reference-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1891,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-05",
+          "manifest": "quarterly-reference-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1679,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-06",
+          "manifest": "quarterly-reference-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2093,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-07",
+          "manifest": "quarterly-reference-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2595,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-08",
+          "manifest": "quarterly-reference-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2875,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-09",
+          "manifest": "quarterly-reference-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2545,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-10",
+          "manifest": "quarterly-reference-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1933,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-reference-seed11/weeks/week-11",
+          "manifest": "quarterly-reference-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-reference-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2025,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_fable52-seed11",
+      "mode": "quarterly",
+      "strategy": "claude_fable52",
+      "slug": "claude_fable52",
+      "role": "frontier",
+      "label": "Claude Fable 5.2 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_fable52_frontier.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-claude_fable52-seed11",
+      "quarter_manifest": "quarterly-claude_fable52-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_fable52-seed11/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €11,325 vs manual baseline with 68.6% automated packing and peak wear capped at 1/12 within €874 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4828426,
+        "labor_ticks": 32855
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33218543,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5356,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 98124,
+          "base_labor_ticks": 138426,
+          "total_cost": 14354933,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-00",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2046,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-01",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1946,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-02",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1940,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-03",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2438,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-04",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1886,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-05",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1672,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-06",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2094,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-07",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2559,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-08",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2859,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-09",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2519,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-10",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1936,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_fable52-seed11/weeks/week-11",
+          "manifest": "quarterly-claude_fable52-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_fable52-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2018,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_opus55-seed11",
+      "mode": "quarterly",
+      "strategy": "claude_opus55",
+      "slug": "claude_opus55",
+      "role": "frontier",
+      "label": "Claude Opus 5.5 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_opus55_frontier.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-claude_opus55-seed11",
+      "quarter_manifest": "quarterly-claude_opus55-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_opus55-seed11/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €10,981 vs manual baseline with 68.6% automated packing and peak wear capped at 1/12 within €1,219 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4862876,
+        "labor_ticks": 32619
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32472043,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5391,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 97302,
+          "base_labor_ticks": 138426,
+          "total_cost": 14541558,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-00",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2052,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-01",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1950,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-02",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1934,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-03",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2411,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-04",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1892,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-05",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1662,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-06",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2094,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-07",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2526,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-08",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2829,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-09",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2498,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-10",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1932,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_opus55-seed11/weeks/week-11",
+          "manifest": "quarterly-claude_opus55-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_opus55-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2016,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-gemini31_pro-seed11",
+      "mode": "quarterly",
+      "strategy": "gemini31_pro",
+      "slug": "gemini31_pro",
+      "role": "frontier",
+      "label": "Gemini 3.1 Pro (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/gemini31_pro_frontier.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-gemini31_pro-seed11",
+      "quarter_manifest": "quarterly-gemini31_pro-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-gemini31_pro-seed11/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €5,617 vs manual baseline with 68.6% automated packing and peak wear capped at 1/12 within €6,582 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 5399226,
+        "labor_ticks": 32193
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 3743149,
+        "reward_den": 12948325,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5236,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 96092,
+          "base_labor_ticks": 138426,
+          "total_cost": 16109058,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-00",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2026,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-01",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1927,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-02",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1912,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-03",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2411,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-04",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1871,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-05",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1633,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-06",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2074,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-07",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2526,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-08",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2828,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-09",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2498,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-10",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1898,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-gemini31_pro-seed11/weeks/week-11",
+          "manifest": "quarterly-gemini31_pro-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-gemini31_pro-seed11/weeks/week-11/events.jsonl",
+          "event_count": 1986,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_grpo-seed11",
+      "mode": "quarterly",
+      "strategy": "qwen_grpo",
+      "slug": "qwen_grpo",
+      "role": "trained",
+      "label": "Qwen 3.5-9B GRPO (Trained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_grpo_win.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-qwen_grpo-seed11",
+      "quarter_manifest": "quarterly-qwen_grpo-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_grpo-seed11/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €10,887 vs manual baseline with 68.2% automated packing and peak wear capped at 4/12 within €1,313 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4872286,
+        "labor_ticks": 32545
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32149023,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5411,
+          "on_time": 5129,
+          "escaped": 2,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5487,
+          "labor_ticks": 97404,
+          "base_labor_ticks": 138426,
+          "total_cost": 14622313,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-00",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2021,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-01",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-01/events.jsonl",
+          "event_count": 1919,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-02",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-02/events.jsonl",
+          "event_count": 1905,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-03",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2423,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-04",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-04/events.jsonl",
+          "event_count": 1853,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-05",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1659,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-06",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2055,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-07",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2544,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-08",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2850,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-09",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2546,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-10",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-10/events.jsonl",
+          "event_count": 1915,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_grpo-seed11/weeks/week-11",
+          "manifest": "quarterly-qwen_grpo-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_grpo-seed11/weeks/week-11/events.jsonl",
+          "event_count": 1995,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_base-seed11",
+      "mode": "quarterly",
+      "strategy": "qwen_base",
+      "slug": "qwen_base",
+      "role": "trained",
+      "label": "Qwen 3.5-9B Base (Untrained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_base_untrained.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-qwen_base-seed11",
+      "quarter_manifest": "quarterly-qwen_base-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_base-seed11/diagnostics.json",
+      "diagnostics_headline": "Feasible rollout (cost €24,514 more than manual) missed win criteria (operating cost failed to beat manual baseline). Weeks 0–11: Kept 8 workers alongside robot CapEx -> idle shift payroll wiped out automation savings (-€26,326 vs manual).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 8412376,
+        "labor_ticks": 35651
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 43301863,
+        "reward_den": 251742080,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5412,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 106714,
+          "base_labor_ticks": 138426,
+          "total_cost": 25174208,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "cost"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-00",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2157,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-01",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-01/events.jsonl",
+          "event_count": 2045,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-02",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-02/events.jsonl",
+          "event_count": 2033,
+          "status": "warning"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-03",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2581,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-04",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-04/events.jsonl",
+          "event_count": 2003,
+          "status": "warning"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-05",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-05/events.jsonl",
+          "event_count": 1743,
+          "status": "warning"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-06",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2213,
+          "status": "warning"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-07",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2705,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-08",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-08/events.jsonl",
+          "event_count": 3063,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-09",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-09/events.jsonl",
+          "event_count": 2691,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-10",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-10/events.jsonl",
+          "event_count": 2016,
+          "status": "warning"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_base-seed11/weeks/week-11",
+          "manifest": "quarterly-qwen_base-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_base-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2105,
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-naive_ai-seed11",
+      "mode": "quarterly",
+      "strategy": "naive_ai",
+      "slug": "naive_ai",
+      "role": "frontier",
+      "label": "Naive AI (Wear Blowout)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/naive_ai_wear_fail.json",
+      "seed": 11,
+      "bundle_dir": "quarterly-naive_ai-seed11",
+      "quarter_manifest": "quarterly-naive_ai-seed11/quarter_manifest.json",
+      "diagnostics": "quarterly-naive_ai-seed11/diagnostics.json",
+      "diagnostics_headline": "Infeasible rollout (-€93,063 vs manual): completed good-order volume fell below SLA (90% weekly / 95% pooled); pooled on-time delivery fell below 88% SLA; weekly escaped defects exceeded 1.2% SLA ceiling. Primary root cause — Week 5 (Pre-Peak Prep): Wear hit 12/12 with route='all' & no maintenance -> 66 jams, 108 late orders (-€4,417; quarter: 616 jams).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 15267316,
+        "labor_ticks": 26958
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": false,
+        "win": false,
+        "reward_num": 1062,
+        "reward_den": 59543,
+        "metrics": {
+          "orders": 5413,
+          "good": 4101,
+          "on_time": 944,
+          "escaped": 35,
+          "scrap": 4,
+          "unfinished": 1273,
+          "auto_finished": 4160,
+          "pack_finished": 4707,
+          "labor_ticks": 80701,
+          "base_labor_ticks": 138426,
+          "total_cost": 47264518,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "volume",
+          "on_time",
+          "quality"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-00",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-00/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-00/events.jsonl",
+          "event_count": 2044,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-01",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-01/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-01/events.jsonl",
+          "event_count": 2003,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-02",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-02/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-02/events.jsonl",
+          "event_count": 2017,
+          "status": "warning"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-03",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-03/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-03/events.jsonl",
+          "event_count": 2042,
+          "status": "critical"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-04",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-04/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-04/events.jsonl",
+          "event_count": 2142,
+          "status": "critical"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-05",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-05/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-05/events.jsonl",
+          "event_count": 2028,
+          "status": "critical"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-06",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-06/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-06/events.jsonl",
+          "event_count": 2205,
+          "status": "critical"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-07",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-07/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-07/events.jsonl",
+          "event_count": 2152,
+          "status": "critical"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-08",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-08/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-08/events.jsonl",
+          "event_count": 2038,
+          "status": "critical"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-09",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-09/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-09/events.jsonl",
+          "event_count": 1962,
+          "status": "critical"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-10",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-10/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-10/events.jsonl",
+          "event_count": 2074,
+          "status": "critical"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-naive_ai-seed11/weeks/week-11",
+          "manifest": "quarterly-naive_ai-seed11/weeks/week-11/manifest.json",
+          "events": "quarterly-naive_ai-seed11/weeks/week-11/events.jsonl",
+          "event_count": 2211,
+          "status": "critical"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-manual-seed29",
+      "mode": "quarterly",
+      "strategy": "manual",
+      "slug": "manual",
+      "role": "baseline",
+      "label": "Manual Baseline (6 Workers)",
+      "solver_source": "manual_quarterly_value",
+      "seed": 29,
+      "bundle_dir": "quarterly-manual-seed29",
+      "quarter_manifest": "quarterly-manual-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-manual-seed29/diagnostics.json",
+      "diagnostics_headline": "Feasible manual-equivalent baseline (€0 vs manual), but missed win criteria: operating cost failed to beat manual baseline; worker labor ticks failed to beat manual baseline; automated pack share fell below 30% minimum. Weeks 0–11: Automated pack share only 0.0% (target >= 30%) -> unautomated 6-worker shifts & peak late orders (-€12,681 vs phased reference).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 0,
+        "total_cost": 6005360,
+        "labor_ticks": 45623
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 4882,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 5450,
+          "labor_ticks": 138426,
+          "base_labor_ticks": 138426,
+          "total_cost": 18127655,
+          "base_cost": 18127655,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-00",
+          "manifest": "quarterly-manual-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1929,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-01",
+          "manifest": "quarterly-manual-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1897,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-02",
+          "manifest": "quarterly-manual-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-02/events.jsonl",
+          "event_count": 1995,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-03",
+          "manifest": "quarterly-manual-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2399,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-04",
+          "manifest": "quarterly-manual-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1871,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-05",
+          "manifest": "quarterly-manual-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1637,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-06",
+          "manifest": "quarterly-manual-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2047,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-07",
+          "manifest": "quarterly-manual-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2739,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-08",
+          "manifest": "quarterly-manual-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2759,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-09",
+          "manifest": "quarterly-manual-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2717,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-10",
+          "manifest": "quarterly-manual-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1821,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-manual-seed29/weeks/week-11",
+          "manifest": "quarterly-manual-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-manual-seed29/weeks/week-11/events.jsonl",
+          "event_count": 1987,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-reference-seed29",
+      "mode": "quarterly",
+      "strategy": "reference",
+      "slug": "reference",
+      "role": "reference",
+      "label": "Phased Reference Rollout",
+      "solver_source": "reference.solve",
+      "seed": 29,
+      "bundle_dir": "quarterly-reference-seed29",
+      "quarter_manifest": "quarterly-reference-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-reference-seed29/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €12,681 vs manual baseline with 70.9% automated packing and peak wear capped at 2/12 matching the phased reference rollout.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4737241,
+        "labor_ticks": 32330
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33542083,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5209,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5473,
+          "labor_ticks": 98996,
+          "base_labor_ticks": 138426,
+          "total_cost": 14274048,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-00",
+          "manifest": "quarterly-reference-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1973,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-01",
+          "manifest": "quarterly-reference-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1921,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-02",
+          "manifest": "quarterly-reference-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-02/events.jsonl",
+          "event_count": 2008,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-03",
+          "manifest": "quarterly-reference-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2425,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-04",
+          "manifest": "quarterly-reference-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1875,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-05",
+          "manifest": "quarterly-reference-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1653,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-06",
+          "manifest": "quarterly-reference-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2050,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-07",
+          "manifest": "quarterly-reference-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2771,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-08",
+          "manifest": "quarterly-reference-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2801,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-09",
+          "manifest": "quarterly-reference-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2763,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-10",
+          "manifest": "quarterly-reference-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1822,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-reference-seed29/weeks/week-11",
+          "manifest": "quarterly-reference-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-reference-seed29/weeks/week-11/events.jsonl",
+          "event_count": 1997,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_fable52-seed29",
+      "mode": "quarterly",
+      "strategy": "claude_fable52",
+      "slug": "claude_fable52",
+      "role": "frontier",
+      "label": "Claude Fable 5.2 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_fable52_frontier.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-claude_fable52-seed29",
+      "quarter_manifest": "quarterly-claude_fable52-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_fable52-seed29/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €12,630 vs manual baseline with 71.0% automated packing and peak wear capped at 1/12 within €52 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4742396,
+        "labor_ticks": 32136
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33218543,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5356,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 98124,
+          "base_labor_ticks": 138426,
+          "total_cost": 14354933,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-00",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1968,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-01",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1910,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-02",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-02/events.jsonl",
+          "event_count": 2012,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-03",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2427,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-04",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1882,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-05",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1644,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-06",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2054,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-07",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2747,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-08",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2779,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-09",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2737,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-10",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1833,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_fable52-seed29/weeks/week-11",
+          "manifest": "quarterly-claude_fable52-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_fable52-seed29/weeks/week-11/events.jsonl",
+          "event_count": 2004,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_opus55-seed29",
+      "mode": "quarterly",
+      "strategy": "claude_opus55",
+      "slug": "claude_opus55",
+      "role": "frontier",
+      "label": "Claude Opus 5.5 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_opus55_frontier.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-claude_opus55-seed29",
+      "quarter_manifest": "quarterly-claude_opus55-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_opus55-seed29/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €11,629 vs manual baseline with 71.0% automated packing and peak wear capped at 1/12 within €1,053 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4842496,
+        "labor_ticks": 31838
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32472043,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5391,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 97302,
+          "base_labor_ticks": 138426,
+          "total_cost": 14541558,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-00",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1974,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-01",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1906,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-02",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-02/events.jsonl",
+          "event_count": 2007,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-03",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2404,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-04",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1876,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-05",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1641,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-06",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2049,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-07",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2730,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-08",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2745,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-09",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2706,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-10",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1821,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_opus55-seed29/weeks/week-11",
+          "manifest": "quarterly-claude_opus55-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_opus55-seed29/weeks/week-11/events.jsonl",
+          "event_count": 1990,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-gemini31_pro-seed29",
+      "mode": "quarterly",
+      "strategy": "gemini31_pro",
+      "slug": "gemini31_pro",
+      "role": "frontier",
+      "label": "Gemini 3.1 Pro (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/gemini31_pro_frontier.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-gemini31_pro-seed29",
+      "quarter_manifest": "quarterly-gemini31_pro-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-gemini31_pro-seed29/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €7,434 vs manual baseline with 71.0% automated packing and peak wear capped at 1/12 within €5,247 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 5261921,
+        "labor_ticks": 31460
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 3743149,
+        "reward_den": 12948325,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5236,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 96092,
+          "base_labor_ticks": 138426,
+          "total_cost": 16109058,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-00",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1952,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-01",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1884,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-02",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-02/events.jsonl",
+          "event_count": 1981,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-03",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2404,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-04",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1849,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-05",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1618,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-06",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2033,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-07",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2730,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-08",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2746,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-09",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2706,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-10",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1797,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-gemini31_pro-seed29/weeks/week-11",
+          "manifest": "quarterly-gemini31_pro-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-gemini31_pro-seed29/weeks/week-11/events.jsonl",
+          "event_count": 1967,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_grpo-seed29",
+      "mode": "quarterly",
+      "strategy": "qwen_grpo",
+      "slug": "qwen_grpo",
+      "role": "trained",
+      "label": "Qwen 3.5-9B GRPO (Trained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_grpo_win.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-qwen_grpo-seed29",
+      "quarter_manifest": "quarterly-qwen_grpo-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_grpo-seed29/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €12,696 vs manual baseline with 70.7% automated packing and peak wear capped at 4/12 matching the phased reference rollout.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4735756,
+        "labor_ticks": 31806
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32149023,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5411,
+          "on_time": 5129,
+          "escaped": 2,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5487,
+          "labor_ticks": 97404,
+          "base_labor_ticks": 138426,
+          "total_cost": 14622313,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-00",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1941,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-01",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1895,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-02",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-02/events.jsonl",
+          "event_count": 1981,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-03",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2408,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-04",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1853,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-05",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1637,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-06",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2018,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-07",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2734,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-08",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2758,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-09",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2748,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-10",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1810,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_grpo-seed29/weeks/week-11",
+          "manifest": "quarterly-qwen_grpo-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_grpo-seed29/weeks/week-11/events.jsonl",
+          "event_count": 1981,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_base-seed29",
+      "mode": "quarterly",
+      "strategy": "qwen_base",
+      "slug": "qwen_base",
+      "role": "trained",
+      "label": "Qwen 3.5-9B Base (Untrained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_base_untrained.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-qwen_base-seed29",
+      "quarter_manifest": "quarterly-qwen_base-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_base-seed29/diagnostics.json",
+      "diagnostics_headline": "Feasible rollout (cost €23,747 more than manual) missed win criteria (operating cost failed to beat manual baseline). Weeks 0–11: Kept 8 workers alongside robot CapEx -> idle shift payroll wiped out automation savings (-€26,326 vs manual).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 8380096,
+        "labor_ticks": 34924
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 43301863,
+        "reward_den": 251742080,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5412,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 106714,
+          "base_labor_ticks": 138426,
+          "total_cost": 25174208,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "cost"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-00",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-00/events.jsonl",
+          "event_count": 2074,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-01",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-01/events.jsonl",
+          "event_count": 2005,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-02",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-02/events.jsonl",
+          "event_count": 2122,
+          "status": "warning"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-03",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-03/events.jsonl",
+          "event_count": 2583,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-04",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-04/events.jsonl",
+          "event_count": 1964,
+          "status": "warning"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-05",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-05/events.jsonl",
+          "event_count": 1710,
+          "status": "warning"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-06",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2171,
+          "status": "warning"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-07",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2929,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-08",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2960,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-09",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2913,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-10",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1921,
+          "status": "warning"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_base-seed29/weeks/week-11",
+          "manifest": "quarterly-qwen_base-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_base-seed29/weeks/week-11/events.jsonl",
+          "event_count": 2083,
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-naive_ai-seed29",
+      "mode": "quarterly",
+      "strategy": "naive_ai",
+      "slug": "naive_ai",
+      "role": "frontier",
+      "label": "Naive AI (Wear Blowout)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/naive_ai_wear_fail.json",
+      "seed": 29,
+      "bundle_dir": "quarterly-naive_ai-seed29",
+      "quarter_manifest": "quarterly-naive_ai-seed29/quarter_manifest.json",
+      "diagnostics": "quarterly-naive_ai-seed29/diagnostics.json",
+      "diagnostics_headline": "Infeasible rollout (-€97,739 vs manual): completed good-order volume fell below SLA (90% weekly / 95% pooled); pooled on-time delivery fell below 88% SLA; weekly escaped defects exceeded 1.2% SLA ceiling. Primary root cause — Week 11 (Quarter Close): Wear hit 12/12 with route='all' & no maintenance -> 67 jams, 113 late orders (-€21,956; quarter: 617 jams).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 15779296,
+        "labor_ticks": 26826
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": false,
+        "win": false,
+        "reward_num": 1062,
+        "reward_den": 59543,
+        "metrics": {
+          "orders": 5413,
+          "good": 4101,
+          "on_time": 944,
+          "escaped": 35,
+          "scrap": 4,
+          "unfinished": 1273,
+          "auto_finished": 4160,
+          "pack_finished": 4707,
+          "labor_ticks": 80701,
+          "base_labor_ticks": 138426,
+          "total_cost": 47264518,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "volume",
+          "on_time",
+          "quality"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-00",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-00/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-00/events.jsonl",
+          "event_count": 1949,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-01",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-01/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-01/events.jsonl",
+          "event_count": 1956,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-02",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-02/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-02/events.jsonl",
+          "event_count": 2108,
+          "status": "critical"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-03",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-03/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-03/events.jsonl",
+          "event_count": 1987,
+          "status": "critical"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-04",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-04/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-04/events.jsonl",
+          "event_count": 2014,
+          "status": "critical"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-05",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-05/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-05/events.jsonl",
+          "event_count": 2110,
+          "status": "critical"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-06",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-06/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-06/events.jsonl",
+          "event_count": 2294,
+          "status": "critical"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-07",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-07/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-07/events.jsonl",
+          "event_count": 2118,
+          "status": "critical"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-08",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-08/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-08/events.jsonl",
+          "event_count": 2069,
+          "status": "critical"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-09",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-09/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-09/events.jsonl",
+          "event_count": 2116,
+          "status": "critical"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-10",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-10/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-10/events.jsonl",
+          "event_count": 1948,
+          "status": "critical"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-naive_ai-seed29/weeks/week-11",
+          "manifest": "quarterly-naive_ai-seed29/weeks/week-11/manifest.json",
+          "events": "quarterly-naive_ai-seed29/weeks/week-11/events.jsonl",
+          "event_count": 2217,
+          "status": "critical"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-manual-seed47",
+      "mode": "quarterly",
+      "strategy": "manual",
+      "slug": "manual",
+      "role": "baseline",
+      "label": "Manual Baseline (6 Workers)",
+      "solver_source": "manual_quarterly_value",
+      "seed": 47,
+      "bundle_dir": "quarterly-manual-seed47",
+      "quarter_manifest": "quarterly-manual-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-manual-seed47/diagnostics.json",
+      "diagnostics_headline": "Feasible manual-equivalent baseline (€0 vs manual), but missed win criteria: operating cost failed to beat manual baseline; worker labor ticks failed to beat manual baseline; automated pack share fell below 30% minimum. Weeks 0–11: Automated pack share only 0.0% (target >= 30%) -> unautomated 6-worker shifts & peak late orders (-€13,655 vs phased reference).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 0,
+        "total_cost": 6161325,
+        "labor_ticks": 46883
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 1,
+        "reward_den": 5,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 4882,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 0,
+          "pack_finished": 5450,
+          "labor_ticks": 138426,
+          "base_labor_ticks": 138426,
+          "total_cost": 18127655,
+          "base_cost": 18127655,
+          "purchase": 0
+        },
+        "reasons": [
+          "cost",
+          "labor",
+          "automation"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-00",
+          "manifest": "quarterly-manual-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1883,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-01",
+          "manifest": "quarterly-manual-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2013,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-02",
+          "manifest": "quarterly-manual-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2077,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-03",
+          "manifest": "quarterly-manual-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2443,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-04",
+          "manifest": "quarterly-manual-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1895,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-05",
+          "manifest": "quarterly-manual-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1891,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-06",
+          "manifest": "quarterly-manual-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1983,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-07",
+          "manifest": "quarterly-manual-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2747,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-08",
+          "manifest": "quarterly-manual-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2894,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-09",
+          "manifest": "quarterly-manual-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2683,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-10",
+          "manifest": "quarterly-manual-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1725,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-manual-seed47/weeks/week-11",
+          "manifest": "quarterly-manual-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-manual-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2181,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-reference-seed47",
+      "mode": "quarterly",
+      "strategy": "reference",
+      "slug": "reference",
+      "role": "reference",
+      "label": "Phased Reference Rollout",
+      "solver_source": "reference.solve",
+      "seed": 47,
+      "bundle_dir": "quarterly-reference-seed47",
+      "quarter_manifest": "quarterly-reference-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-reference-seed47/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €13,655 vs manual baseline with 69.5% automated packing and peak wear capped at 2/12 matching the phased reference rollout.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4795821,
+        "labor_ticks": 33517
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33542083,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5209,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5473,
+          "labor_ticks": 98996,
+          "base_labor_ticks": 138426,
+          "total_cost": 14274048,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-00",
+          "manifest": "quarterly-reference-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1916,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-01",
+          "manifest": "quarterly-reference-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2043,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-02",
+          "manifest": "quarterly-reference-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2079,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-03",
+          "manifest": "quarterly-reference-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2481,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-04",
+          "manifest": "quarterly-reference-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1905,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-05",
+          "manifest": "quarterly-reference-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1931,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-06",
+          "manifest": "quarterly-reference-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1975,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-07",
+          "manifest": "quarterly-reference-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2787,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-08",
+          "manifest": "quarterly-reference-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2929,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-09",
+          "manifest": "quarterly-reference-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2677,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-10",
+          "manifest": "quarterly-reference-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1716,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-reference-seed47/weeks/week-11",
+          "manifest": "quarterly-reference-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-reference-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2215,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_fable52-seed47",
+      "mode": "quarterly",
+      "strategy": "claude_fable52",
+      "slug": "claude_fable52",
+      "role": "frontier",
+      "label": "Claude Fable 5.2 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_fable52_frontier.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-claude_fable52-seed47",
+      "quarter_manifest": "quarterly-claude_fable52-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_fable52-seed47/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €13,772 vs manual baseline with 69.9% automated packing and peak wear capped at 1/12 beating the reference plan by €117.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4784111,
+        "labor_ticks": 33133
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 33218543,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5356,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 98124,
+          "base_labor_ticks": 138426,
+          "total_cost": 14354933,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-00",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1922,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-01",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2022,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-02",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2090,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-03",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2447,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-04",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1905,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-05",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1916,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-06",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1982,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-07",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2761,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-08",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2907,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-09",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2641,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-10",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1725,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_fable52-seed47/weeks/week-11",
+          "manifest": "quarterly-claude_fable52-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_fable52-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2208,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-claude_opus55-seed47",
+      "mode": "quarterly",
+      "strategy": "claude_opus55",
+      "slug": "claude_opus55",
+      "role": "frontier",
+      "label": "Claude Opus 5.5 (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/claude_opus55_frontier.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-claude_opus55-seed47",
+      "quarter_manifest": "quarterly-claude_opus55-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-claude_opus55-seed47/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €13,251 vs manual baseline with 69.9% automated packing and peak wear capped at 1/12 within €404 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 4836186,
+        "labor_ticks": 32845
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32472043,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5391,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 97302,
+          "base_labor_ticks": 138426,
+          "total_cost": 14541558,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-00",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1917,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-01",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2018,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-02",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2080,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-03",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2430,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-04",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1906,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-05",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1909,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-06",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1974,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-07",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2732,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-08",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2882,
+          "status": "ok"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-09",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2622,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-10",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1717,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-claude_opus55-seed47/weeks/week-11",
+          "manifest": "quarterly-claude_opus55-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-claude_opus55-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2196,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-gemini31_pro-seed47",
+      "mode": "quarterly",
+      "strategy": "gemini31_pro",
+      "slug": "gemini31_pro",
+      "role": "frontier",
+      "label": "Gemini 3.1 Pro (Frontier)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/gemini31_pro_frontier.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-gemini31_pro-seed47",
+      "quarter_manifest": "quarterly-gemini31_pro-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-gemini31_pro-seed47/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €7,134 vs manual baseline with 69.9% automated packing and peak wear capped at 1/12 within €6,521 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 5447911,
+        "labor_ticks": 32439
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 3743149,
+        "reward_den": 12948325,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5236,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 96092,
+          "base_labor_ticks": 138426,
+          "total_cost": 16109058,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-00",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1894,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-01",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-01/events.jsonl",
+          "event_count": 1997,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-02",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2054,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-03",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2430,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-04",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1877,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-05",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1873,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-06",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1958,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-07",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2732,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-08",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2882,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-09",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2622,
+          "status": "ok"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-10",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1699,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-gemini31_pro-seed47/weeks/week-11",
+          "manifest": "quarterly-gemini31_pro-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-gemini31_pro-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2169,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_grpo-seed47",
+      "mode": "quarterly",
+      "strategy": "qwen_grpo",
+      "slug": "qwen_grpo",
+      "role": "trained",
+      "label": "Qwen 3.5-9B GRPO (Trained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_grpo_win.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-qwen_grpo-seed47",
+      "quarter_manifest": "quarterly-qwen_grpo-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_grpo-seed47/diagnostics.json",
+      "diagnostics_headline": "Rollout succeeded across all 12 weeks, saving €11,471 vs manual baseline with 69.3% automated packing and peak wear capped at 4/12 within €2,184 of the reference plan.",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 5014271,
+        "labor_ticks": 33053
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": true,
+        "reward_num": 32149023,
+        "reward_den": 90638275,
+        "metrics": {
+          "orders": 5413,
+          "good": 5411,
+          "on_time": 5129,
+          "escaped": 2,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5487,
+          "labor_ticks": 97404,
+          "base_labor_ticks": 138426,
+          "total_cost": 14622313,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": []
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-00",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1885,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-01",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2015,
+          "status": "ok"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-02",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2057,
+          "status": "ok"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-03",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2468,
+          "status": "ok"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-04",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1884,
+          "status": "ok"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-05",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-05/events.jsonl",
+          "event_count": 1897,
+          "status": "ok"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-06",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-06/events.jsonl",
+          "event_count": 1949,
+          "status": "ok"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-07",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2744,
+          "status": "ok"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-08",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2922,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-09",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2668,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-10",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1702,
+          "status": "ok"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_grpo-seed47/weeks/week-11",
+          "manifest": "quarterly-qwen_grpo-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_grpo-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2187,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-qwen_base-seed47",
+      "mode": "quarterly",
+      "strategy": "qwen_base",
+      "slug": "qwen_base",
+      "role": "trained",
+      "label": "Qwen 3.5-9B Base (Untrained)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/qwen35_base_untrained.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-qwen_base-seed47",
+      "quarter_manifest": "quarterly-qwen_base-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-qwen_base-seed47/diagnostics.json",
+      "diagnostics_headline": "Feasible rollout (cost €22,204 more than manual) missed win criteria (operating cost failed to beat manual baseline). Weeks 0–11: Kept 8 workers alongside robot CapEx -> idle shift payroll wiped out automation savings (-€26,326 vs manual).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 8381736,
+        "labor_ticks": 36139
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": true,
+        "win": false,
+        "reward_num": 43301863,
+        "reward_den": 251742080,
+        "metrics": {
+          "orders": 5413,
+          "good": 5412,
+          "on_time": 5412,
+          "escaped": 1,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 3808,
+          "pack_finished": 5454,
+          "labor_ticks": 106714,
+          "base_labor_ticks": 138426,
+          "total_cost": 25174208,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "cost"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-00",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-00/events.jsonl",
+          "event_count": 2030,
+          "status": "warning"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-01",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2137,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-02",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2192,
+          "status": "warning"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-03",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2609,
+          "status": "warning"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-04",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1987,
+          "status": "warning"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-05",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-05/events.jsonl",
+          "event_count": 2006,
+          "status": "warning"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-06",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-06/events.jsonl",
+          "event_count": 2111,
+          "status": "warning"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-07",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2958,
+          "status": "warning"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-08",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-08/events.jsonl",
+          "event_count": 3113,
+          "status": "warning"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-09",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-09/events.jsonl",
+          "event_count": 2814,
+          "status": "warning"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-10",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1800,
+          "status": "warning"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-qwen_base-seed47/weeks/week-11",
+          "manifest": "quarterly-qwen_base-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-qwen_base-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2316,
+          "status": "warning"
+        }
+      ]
+    },
+    {
+      "id": "quarterly-naive_ai-seed47",
+      "mode": "quarterly",
+      "strategy": "naive_ai",
+      "slug": "naive_ai",
+      "role": "frontier",
+      "label": "Naive AI (Wear Blowout)",
+      "solver_source": "/Users/ilyagar/Documents/Hackathon Cooking/docs/ru/examples/naive_ai_wear_fail.json",
+      "seed": 47,
+      "bundle_dir": "quarterly-naive_ai-seed47",
+      "quarter_manifest": "quarterly-naive_ai-seed47/quarter_manifest.json",
+      "diagnostics": "quarterly-naive_ai-seed47/diagnostics.json",
+      "diagnostics_headline": "Infeasible rollout (-€100,566 vs manual): completed good-order volume fell below SLA (90% weekly / 95% pooled); pooled on-time delivery fell below 88% SLA; weekly escaped defects exceeded 1.2% SLA ceiling. Primary root cause — Week 6 (Early Holiday): Wear hit 12/12 with route='all' & no maintenance -> 66 jams, 106 late orders (-€9,493; quarter: 605 jams).",
+      "weeks_count": 12,
+      "summary": {
+        "purchase": 1530000,
+        "total_cost": 16217906,
+        "labor_ticks": 26917
+      },
+      "evaluation": {
+        "valid": true,
+        "feasible": false,
+        "win": false,
+        "reward_num": 1062,
+        "reward_den": 59543,
+        "metrics": {
+          "orders": 5413,
+          "good": 4101,
+          "on_time": 944,
+          "escaped": 35,
+          "scrap": 4,
+          "unfinished": 1273,
+          "auto_finished": 4160,
+          "pack_finished": 4707,
+          "labor_ticks": 80701,
+          "base_labor_ticks": 138426,
+          "total_cost": 47264518,
+          "base_cost": 18127655,
+          "purchase": 1530000
+        },
+        "reasons": [
+          "volume",
+          "on_time",
+          "quality"
+        ]
+      },
+      "evaluation_seeds": [
+        11,
+        29,
+        47
+      ],
+      "weeks": [
+        {
+          "week": 0,
+          "label": "baseline_open",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-00",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-00/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-00/events.jsonl",
+          "event_count": 1897,
+          "status": "ok"
+        },
+        {
+          "week": 1,
+          "label": "baseline_steady",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-01",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-01/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-01/events.jsonl",
+          "event_count": 2071,
+          "status": "warning"
+        },
+        {
+          "week": 2,
+          "label": "autumn_ramp",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-02",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-02/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-02/events.jsonl",
+          "event_count": 2182,
+          "status": "warning"
+        },
+        {
+          "week": 3,
+          "label": "fragile_promo",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-03",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-03/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-03/events.jsonl",
+          "event_count": 2041,
+          "status": "critical"
+        },
+        {
+          "week": 4,
+          "label": "mid_quarter",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-04",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-04/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-04/events.jsonl",
+          "event_count": 1954,
+          "status": "critical"
+        },
+        {
+          "week": 5,
+          "label": "pre_peak_prep",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-05",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-05/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-05/events.jsonl",
+          "event_count": 2345,
+          "status": "critical"
+        },
+        {
+          "week": 6,
+          "label": "early_holiday",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-06",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-06/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-06/events.jsonl",
+          "event_count": 2118,
+          "status": "critical"
+        },
+        {
+          "week": 7,
+          "label": "singles_day_wave",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-07",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-07/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-07/events.jsonl",
+          "event_count": 2148,
+          "status": "critical"
+        },
+        {
+          "week": 8,
+          "label": "black_friday_peak",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-08",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-08/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-08/events.jsonl",
+          "event_count": 2068,
+          "status": "critical"
+        },
+        {
+          "week": 9,
+          "label": "cyber_week_peak",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-09",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-09/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-09/events.jsonl",
+          "event_count": 1925,
+          "status": "critical"
+        },
+        {
+          "week": 10,
+          "label": "post_peak_steady",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-10",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-10/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-10/events.jsonl",
+          "event_count": 1969,
+          "status": "critical"
+        },
+        {
+          "week": 11,
+          "label": "quarter_close",
+          "bundle_dir": "quarterly-naive_ai-seed47/weeks/week-11",
+          "manifest": "quarterly-naive_ai-seed47/weeks/week-11/manifest.json",
+          "events": "quarterly-naive_ai-seed47/weeks/week-11/events.jsonl",
+          "event_count": 2362,
+          "status": "critical"
+        }
+      ]
     }
   ],
   "comparisons": [
@@ -499,6 +4386,366 @@
       "seed": 47,
       "left": "v1-manual-seed47",
       "right": "v1-reference-seed47"
+    },
+    {
+      "id": "quarterly-manual-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "baseline_vs_reference",
+      "seed": 11,
+      "left": "quarterly-manual-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 11,
+      "left": "quarterly-claude_fable52-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 11,
+      "left": "quarterly-claude_opus55-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 11,
+      "left": "quarterly-gemini31_pro-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-qwen_grpo-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 11,
+      "left": "quarterly-qwen_grpo-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-qwen_base-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 11,
+      "left": "quarterly-qwen_base-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-reference-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 11,
+      "left": "quarterly-naive_ai-seed11",
+      "right": "quarterly-reference-seed11"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_grpo-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-claude_fable52-seed11",
+      "right": "quarterly-qwen_grpo-seed11"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_base-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-claude_fable52-seed11",
+      "right": "quarterly-qwen_base-seed11"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_grpo-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-claude_opus55-seed11",
+      "right": "quarterly-qwen_grpo-seed11"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_base-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-claude_opus55-seed11",
+      "right": "quarterly-qwen_base-seed11"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_grpo-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-gemini31_pro-seed11",
+      "right": "quarterly-qwen_grpo-seed11"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_base-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-gemini31_pro-seed11",
+      "right": "quarterly-qwen_base-seed11"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_grpo-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-naive_ai-seed11",
+      "right": "quarterly-qwen_grpo-seed11"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_base-seed11",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 11,
+      "left": "quarterly-naive_ai-seed11",
+      "right": "quarterly-qwen_base-seed11"
+    },
+    {
+      "id": "quarterly-manual-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "baseline_vs_reference",
+      "seed": 29,
+      "left": "quarterly-manual-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 29,
+      "left": "quarterly-claude_fable52-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 29,
+      "left": "quarterly-claude_opus55-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 29,
+      "left": "quarterly-gemini31_pro-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-qwen_grpo-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 29,
+      "left": "quarterly-qwen_grpo-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-qwen_base-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 29,
+      "left": "quarterly-qwen_base-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-reference-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 29,
+      "left": "quarterly-naive_ai-seed29",
+      "right": "quarterly-reference-seed29"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_grpo-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-claude_fable52-seed29",
+      "right": "quarterly-qwen_grpo-seed29"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_base-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-claude_fable52-seed29",
+      "right": "quarterly-qwen_base-seed29"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_grpo-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-claude_opus55-seed29",
+      "right": "quarterly-qwen_grpo-seed29"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_base-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-claude_opus55-seed29",
+      "right": "quarterly-qwen_base-seed29"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_grpo-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-gemini31_pro-seed29",
+      "right": "quarterly-qwen_grpo-seed29"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_base-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-gemini31_pro-seed29",
+      "right": "quarterly-qwen_base-seed29"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_grpo-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-naive_ai-seed29",
+      "right": "quarterly-qwen_grpo-seed29"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_base-seed29",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 29,
+      "left": "quarterly-naive_ai-seed29",
+      "right": "quarterly-qwen_base-seed29"
+    },
+    {
+      "id": "quarterly-manual-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "baseline_vs_reference",
+      "seed": 47,
+      "left": "quarterly-manual-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 47,
+      "left": "quarterly-claude_fable52-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 47,
+      "left": "quarterly-claude_opus55-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 47,
+      "left": "quarterly-gemini31_pro-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-qwen_grpo-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 47,
+      "left": "quarterly-qwen_grpo-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-qwen_base-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "trained_vs_reference",
+      "seed": 47,
+      "left": "quarterly-qwen_base-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-reference-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_reference",
+      "seed": 47,
+      "left": "quarterly-naive_ai-seed47",
+      "right": "quarterly-reference-seed47"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_grpo-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-claude_fable52-seed47",
+      "right": "quarterly-qwen_grpo-seed47"
+    },
+    {
+      "id": "quarterly-claude_fable52-vs-qwen_base-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-claude_fable52-seed47",
+      "right": "quarterly-qwen_base-seed47"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_grpo-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-claude_opus55-seed47",
+      "right": "quarterly-qwen_grpo-seed47"
+    },
+    {
+      "id": "quarterly-claude_opus55-vs-qwen_base-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-claude_opus55-seed47",
+      "right": "quarterly-qwen_base-seed47"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_grpo-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-gemini31_pro-seed47",
+      "right": "quarterly-qwen_grpo-seed47"
+    },
+    {
+      "id": "quarterly-gemini31_pro-vs-qwen_base-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-gemini31_pro-seed47",
+      "right": "quarterly-qwen_base-seed47"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_grpo-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-naive_ai-seed47",
+      "right": "quarterly-qwen_grpo-seed47"
+    },
+    {
+      "id": "quarterly-naive_ai-vs-qwen_base-seed47",
+      "mode": "quarterly",
+      "kind": "frontier_vs_trained",
+      "seed": 47,
+      "left": "quarterly-naive_ai-seed47",
+      "right": "quarterly-qwen_base-seed47"
     }
   ]
 }

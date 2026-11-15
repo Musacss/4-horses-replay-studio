@@ -1,0 +1,2378 @@
+{
+  "replay_pack_format": "robotization-bench.quarter-pack.v1",
+  "schema_version": 2,
+  "world_id": "cell-quarterly-v2",
+  "seed": 47,
+  "purchase": 1530000,
+  "total_cost": 8381736,
+  "labor_ticks": 36139,
+  "plan": {
+    "schema_version": 2,
+    "weeks": [
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "maintenance": true,
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "valid": true,
+    "feasible": true,
+    "win": false,
+    "reward_num": 43301863,
+    "reward_den": 251742080,
+    "metrics": {
+      "orders": 5413,
+      "good": 5412,
+      "on_time": 5412,
+      "escaped": 1,
+      "scrap": 0,
+      "unfinished": 0,
+      "auto_finished": 3808,
+      "pack_finished": 5454,
+      "labor_ticks": 106714,
+      "base_labor_ticks": 138426,
+      "total_cost": 25174208,
+      "base_cost": 18127655,
+      "purchase": 1530000
+    },
+    "reasons": [
+      "cost"
+    ]
+  },
+  "diagnostics_file": "diagnostics.md",
+  "diagnostics": {
+    "diagnostics_version": 1,
+    "seed": 47,
+    "total_weeks": 12,
+    "total_issues": 1,
+    "critical_issues": 0,
+    "warning_issues": 1,
+    "flagged_weeks": [
+      0
+    ],
+    "critical_weeks": [],
+    "counts_by_category": {
+      "commissioning_jam_unassisted": 0,
+      "route_all_unmaintained_wear": 0,
+      "hiring_retraining_friction": 1,
+      "sla_overtime_breach": 0,
+      "backlog_carryover_surge": 0
+    },
+    "quarter_summary": {
+      "purchase": 1530000,
+      "total_cost": 8381736,
+      "labor_ticks": 36139,
+      "peak_wear": 1,
+      "peak_carryover_out": 0,
+      "total_jams": 39,
+      "total_overtime_ticks": 0,
+      "total_hiring_retraining_cost": 35500,
+      "feasible": true,
+      "win": false,
+      "reasons": [
+        "cost"
+      ],
+      "headline": "Quarter seed 47 [FEASIBLE (NO WIN)]: 1 operational issue(s) (0 critical, 1 warning) across 1/12 week(s); operating cost €83,817.36, CapEx €15,300.00, peak wear 1."
+    },
+    "weeks": [
+      {
+        "week": 0,
+        "label": "baseline_open",
+        "status": "warning",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": true,
+          "wear_start": 0,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 131,
+          "good": 131,
+          "on_time": 131,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 102,
+          "pack_finished": 133,
+          "jams": 9,
+          "labor_ticks": 2414,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 35500,
+          "week_total_cost": 729533
+        },
+        "issues": [
+          {
+            "category": "hiring_retraining_friction",
+            "severity": "warning",
+            "code": "crew_churn_hiring_retraining",
+            "message": "Crew roster changed (8 -> 8 worker(s)), incurring €355.00 in hiring/retraining friction."
+          }
+        ]
+      },
+      {
+        "week": 1,
+        "label": "baseline_steady",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": true,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 140,
+          "good": 140,
+          "on_time": 140,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 109,
+          "pack_finished": 141,
+          "jams": 3,
+          "labor_ticks": 2541,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 694433
+        },
+        "issues": []
+      },
+      {
+        "week": 2,
+        "label": "autumn_ramp",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 144,
+          "good": 144,
+          "on_time": 144,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 119,
+          "pack_finished": 146,
+          "jams": 2,
+          "labor_ticks": 2473,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 695203
+        },
+        "issues": []
+      },
+      {
+        "week": 3,
+        "label": "fragile_promo",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 170,
+          "good": 170,
+          "on_time": 170,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 105,
+          "pack_finished": 170,
+          "jams": 3,
+          "labor_ticks": 3655,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 696723
+        },
+        "issues": []
+      },
+      {
+        "week": 4,
+        "label": "mid_quarter",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 132,
+          "good": 132,
+          "on_time": 132,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 108,
+          "pack_finished": 132,
+          "jams": 5,
+          "labor_ticks": 2229,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 693303
+        },
+        "issues": []
+      },
+      {
+        "week": 5,
+        "label": "pre_peak_prep",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 131,
+          "good": 131,
+          "on_time": 131,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 102,
+          "pack_finished": 133,
+          "jams": 4,
+          "labor_ticks": 2367,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 694033
+        },
+        "issues": []
+      },
+      {
+        "week": 6,
+        "label": "early_holiday",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 138,
+          "good": 138,
+          "on_time": 138,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 96,
+          "pack_finished": 138,
+          "jams": 0,
+          "labor_ticks": 2721,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 693843
+        },
+        "issues": []
+      },
+      {
+        "week": 7,
+        "label": "singles_day_wave",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 191,
+          "good": 191,
+          "on_time": 191,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 107,
+          "pack_finished": 192,
+          "jams": 2,
+          "labor_ticks": 4389,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 699023
+        },
+        "issues": []
+      },
+      {
+        "week": 8,
+        "label": "black_friday_peak",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 202,
+          "good": 202,
+          "on_time": 202,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 112,
+          "pack_finished": 203,
+          "jams": 1,
+          "labor_ticks": 4641,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 700013
+        },
+        "issues": []
+      },
+      {
+        "week": 9,
+        "label": "cyber_week_peak",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 183,
+          "good": 183,
+          "on_time": 183,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 103,
+          "pack_finished": 183,
+          "jams": 4,
+          "labor_ticks": 4146,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 697893
+        },
+        "issues": []
+      },
+      {
+        "week": 10,
+        "label": "post_peak_steady",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 120,
+          "good": 120,
+          "on_time": 120,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 105,
+          "pack_finished": 120,
+          "jams": 2,
+          "labor_ticks": 1885,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 692223
+        },
+        "issues": []
+      },
+      {
+        "week": 11,
+        "label": "quarter_close",
+        "status": "ok",
+        "metrics": {
+          "robot": true,
+          "trays": true,
+          "route": "bypass",
+          "maintenance": true,
+          "headcount": 8,
+          "zone3_workers": 4,
+          "commissioning_active": false,
+          "wear_start": 1,
+          "wear_end": 1,
+          "carryover_in": 0,
+          "carryover_out": 0,
+          "total_orders": 152,
+          "good": 152,
+          "on_time": 152,
+          "escaped": 0,
+          "scrap": 0,
+          "unfinished": 0,
+          "auto_finished": 121,
+          "pack_finished": 153,
+          "jams": 4,
+          "labor_ticks": 2678,
+          "overtime_ticks": 0,
+          "hiring_retraining_cost": 0,
+          "week_total_cost": 695513
+        },
+        "issues": []
+      }
+    ]
+  },
+  "weeks": [
+    {
+      "week": 0,
+      "week_id": "week-00",
+      "label": "baseline_open",
+      "week_seed": 1029106040,
+      "bundle_dir": "weeks/week-00",
+      "manifest_file": "weeks/week-00/manifest.json",
+      "events_file": "weeks/week-00/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 0,
+      "wear_end": 1,
+      "commissioning_active": true,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 1029106040,
+        "total": 131,
+        "good": 131,
+        "on_time": 131,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 133,
+        "pack_finished": 133,
+        "auto_finished": 102,
+        "trays_used": 131,
+        "rework_started": 2,
+        "labor_ticks": 2414,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 786,
+          "materials": 1596,
+          "rework": 140,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127882
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 35500,
+          "trays": 3930,
+          "materials": 7980,
+          "rework": 700,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 729533
+      }
+    },
+    {
+      "week": 1,
+      "week_id": "week-01",
+      "label": "baseline_steady",
+      "week_seed": 1568990457,
+      "bundle_dir": "weeks/week-01",
+      "manifest_file": "weeks/week-01/manifest.json",
+      "events_file": "weeks/week-01/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": true,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 1568990457,
+        "total": 140,
+        "good": 140,
+        "on_time": 140,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 141,
+        "pack_finished": 141,
+        "auto_finished": 109,
+        "trays_used": 140,
+        "rework_started": 1,
+        "labor_ticks": 2541,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 840,
+          "materials": 1692,
+          "rework": 70,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127962
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 4200,
+          "materials": 8460,
+          "rework": 350,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 694433
+      }
+    },
+    {
+      "week": 2,
+      "week_id": "week-02",
+      "label": "autumn_ramp",
+      "week_seed": 1489430029,
+      "bundle_dir": "weeks/week-02",
+      "manifest_file": "weeks/week-02/manifest.json",
+      "events_file": "weeks/week-02/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 1489430029,
+        "total": 144,
+        "good": 144,
+        "on_time": 144,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 146,
+        "pack_finished": 146,
+        "auto_finished": 119,
+        "trays_used": 144,
+        "rework_started": 2,
+        "labor_ticks": 2473,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 864,
+          "materials": 1752,
+          "rework": 140,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 128116
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 4320,
+          "materials": 8760,
+          "rework": 700,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 695203
+      }
+    },
+    {
+      "week": 3,
+      "week_id": "week-03",
+      "label": "fragile_promo",
+      "week_seed": 796309197,
+      "bundle_dir": "weeks/week-03",
+      "manifest_file": "weeks/week-03/manifest.json",
+      "events_file": "weeks/week-03/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 796309197,
+        "total": 170,
+        "good": 170,
+        "on_time": 170,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 170,
+        "pack_finished": 170,
+        "auto_finished": 105,
+        "trays_used": 170,
+        "rework_started": 0,
+        "labor_ticks": 3655,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 1020,
+          "materials": 2040,
+          "rework": 0,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 128420
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 5100,
+          "materials": 10200,
+          "rework": 0,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 696723
+      }
+    },
+    {
+      "week": 4,
+      "week_id": "week-04",
+      "label": "mid_quarter",
+      "week_seed": 154911367,
+      "bundle_dir": "weeks/week-04",
+      "manifest_file": "weeks/week-04/manifest.json",
+      "events_file": "weeks/week-04/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 154911367,
+        "total": 132,
+        "good": 132,
+        "on_time": 132,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 132,
+        "pack_finished": 132,
+        "auto_finished": 108,
+        "trays_used": 132,
+        "rework_started": 0,
+        "labor_ticks": 2229,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 792,
+          "materials": 1584,
+          "rework": 0,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127736
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 3960,
+          "materials": 7920,
+          "rework": 0,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 693303
+      }
+    },
+    {
+      "week": 5,
+      "week_id": "week-05",
+      "label": "pre_peak_prep",
+      "week_seed": 306877416,
+      "bundle_dir": "weeks/week-05",
+      "manifest_file": "weeks/week-05/manifest.json",
+      "events_file": "weeks/week-05/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 306877416,
+        "total": 131,
+        "good": 131,
+        "on_time": 131,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 133,
+        "pack_finished": 133,
+        "auto_finished": 102,
+        "trays_used": 131,
+        "rework_started": 2,
+        "labor_ticks": 2367,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 786,
+          "materials": 1596,
+          "rework": 140,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127882
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 3930,
+          "materials": 7980,
+          "rework": 700,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 694033
+      }
+    },
+    {
+      "week": 6,
+      "week_id": "week-06",
+      "label": "early_holiday",
+      "week_seed": 1883487818,
+      "bundle_dir": "weeks/week-06",
+      "manifest_file": "weeks/week-06/manifest.json",
+      "events_file": "weeks/week-06/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 1883487818,
+        "total": 138,
+        "good": 138,
+        "on_time": 138,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 138,
+        "pack_finished": 138,
+        "auto_finished": 96,
+        "trays_used": 138,
+        "rework_started": 0,
+        "labor_ticks": 2721,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 828,
+          "materials": 1656,
+          "rework": 0,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127844
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 4140,
+          "materials": 8280,
+          "rework": 0,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 693843
+      }
+    },
+    {
+      "week": 7,
+      "week_id": "week-07",
+      "label": "singles_day_wave",
+      "week_seed": 143868043,
+      "bundle_dir": "weeks/week-07",
+      "manifest_file": "weeks/week-07/manifest.json",
+      "events_file": "weeks/week-07/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 143868043,
+        "total": 191,
+        "good": 191,
+        "on_time": 191,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 192,
+        "pack_finished": 192,
+        "auto_finished": 107,
+        "trays_used": 191,
+        "rework_started": 1,
+        "labor_ticks": 4389,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 1146,
+          "materials": 2304,
+          "rework": 70,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 128880
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 5730,
+          "materials": 11520,
+          "rework": 350,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 699023
+      }
+    },
+    {
+      "week": 8,
+      "week_id": "week-08",
+      "label": "black_friday_peak",
+      "week_seed": 1881551998,
+      "bundle_dir": "weeks/week-08",
+      "manifest_file": "weeks/week-08/manifest.json",
+      "events_file": "weeks/week-08/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 1881551998,
+        "total": 202,
+        "good": 202,
+        "on_time": 202,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 203,
+        "pack_finished": 203,
+        "auto_finished": 112,
+        "trays_used": 202,
+        "rework_started": 1,
+        "labor_ticks": 4641,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 1212,
+          "materials": 2436,
+          "rework": 70,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 129078
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 6060,
+          "materials": 12180,
+          "rework": 350,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 700013
+      }
+    },
+    {
+      "week": 9,
+      "week_id": "week-09",
+      "label": "cyber_week_peak",
+      "week_seed": 780352700,
+      "bundle_dir": "weeks/week-09",
+      "manifest_file": "weeks/week-09/manifest.json",
+      "events_file": "weeks/week-09/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 780352700,
+        "total": 183,
+        "good": 183,
+        "on_time": 183,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 183,
+        "pack_finished": 183,
+        "auto_finished": 103,
+        "trays_used": 183,
+        "rework_started": 0,
+        "labor_ticks": 4146,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 1098,
+          "materials": 2196,
+          "rework": 0,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 128654
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 5490,
+          "materials": 10980,
+          "rework": 0,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 697893
+      }
+    },
+    {
+      "week": 10,
+      "week_id": "week-10",
+      "label": "post_peak_steady",
+      "week_seed": 442158873,
+      "bundle_dir": "weeks/week-10",
+      "manifest_file": "weeks/week-10/manifest.json",
+      "events_file": "weeks/week-10/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 442158873,
+        "total": 120,
+        "good": 120,
+        "on_time": 120,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 120,
+        "pack_finished": 120,
+        "auto_finished": 105,
+        "trays_used": 120,
+        "rework_started": 0,
+        "labor_ticks": 1885,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 720,
+          "materials": 1440,
+          "rework": 0,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 127520
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 3600,
+          "materials": 7200,
+          "rework": 0,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 692223
+      }
+    },
+    {
+      "week": 11,
+      "week_id": "week-11",
+      "label": "quarter_close",
+      "week_seed": 316928826,
+      "bundle_dir": "weeks/week-11",
+      "manifest_file": "weeks/week-11/manifest.json",
+      "events_file": "weeks/week-11/events.jsonl",
+      "replay_format": "robotization-bench.replay.v1",
+      "carryover_in": 0,
+      "carryover_out": 0,
+      "wear_start": 1,
+      "wear_end": 1,
+      "commissioning_active": false,
+      "maintenance": true,
+      "shift_plan": {
+        "schema_version": 1,
+        "robot": true,
+        "trays": true,
+        "route": "bypass",
+        "workers": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "raw": {
+        "schema_version": 1,
+        "seed": 316928826,
+        "total": 152,
+        "good": 152,
+        "on_time": 152,
+        "escaped": 0,
+        "scrap": 0,
+        "unfinished": 0,
+        "pack_started": 153,
+        "pack_finished": 153,
+        "auto_finished": 121,
+        "trays_used": 152,
+        "rework_started": 1,
+        "labor_ticks": 2678,
+        "overtime_ticks": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "events": []
+      },
+      "shift_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 3060,
+          "service": 700,
+          "shifts": 121600,
+          "overtime": 0,
+          "trays": 912,
+          "materials": 1836,
+          "rework": 70,
+          "late": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 128178
+      },
+      "week_economy": {
+        "purchase": 1530000,
+        "costs": {
+          "depreciation": 29423,
+          "service": 3500,
+          "maintenance": 4500,
+          "shifts": 608000,
+          "cross_skill": 36000,
+          "overtime": 0,
+          "hiring_retraining": 0,
+          "trays": 4560,
+          "materials": 9180,
+          "rework": 350,
+          "late": 0,
+          "backlog_holding": 0,
+          "unfulfilled": 0,
+          "escaped": 0
+        },
+        "total": 695513
+      }
+    }
+  ]
+}
